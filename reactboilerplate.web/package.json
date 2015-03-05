@@ -1,0 +1,48 @@
+{
+  "name": "reactboilerplate.web",
+  "version": "0.1.0",
+  "description": "Golang with react flux boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "go",
+    "golang",
+    "reactjs",
+    "flux"
+  ],
+  "author": "Niko Darmawan",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "del": "^1.1.1",
+    "envify": "^3.2.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "git://github.com/spenceralger/gulp-jshint#overrideJshint",
+    "gulp-jsxhint": "0.0.1",
+    "gulp-less": "^3.0.1",
+    "gulp-minify-css": "^0.4.6",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-sass": "^1.3.3",
+    "gulp-util": "^3.0.3",
+    "jshint-jsx": "^0.4.1",
+    "jshint-stylish": "^1.0.0",
+    "jsxhint": "^0.12.1",
+    "merge-stream": "^0.1.7",
+    "pretty-hrtime": "^1.0.0",
+    "react": "^0.12.2",
+    "react-router": "^0.12.4",
+    "react-tools": "^0.12.2",
+    "reactify": "^1.0.0",
+    "require-dir": "^0.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.4.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^1.3.3"
+  }
+}

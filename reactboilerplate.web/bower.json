@@ -1,0 +1,22 @@
+{
+  "name": "go-react-flux-boilerplate",
+  "version": "0.0.0",
+  "authors": [
+    "Niko Darmawan <darmawan.niko@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1"
+  }
+}

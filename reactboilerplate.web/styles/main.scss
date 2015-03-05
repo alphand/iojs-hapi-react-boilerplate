@@ -1,0 +1,24 @@
+@import "../bower_components/foundation/scss/normalize";
+@import "../bower_components/foundation/scss/foundation/functions";
+@import "_settings";
+@import "../bower_components/foundation/scss/foundation";
+
+$footer-height:25px;
+
+html, body, .layout { height: 100%; }
+
+.main-wrapper{
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -$footer-height;
+  .footer-push {
+    height: $footer-height;
+  }
+}
+.footer {
+  clear: both;
+  position: relative;
+  height: $footer-height;
+}
