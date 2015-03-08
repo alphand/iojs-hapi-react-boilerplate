@@ -5,6 +5,8 @@ var Hapi          = require("hapi"),
     Path          = require("path"),
     Promise       = require("bluebird");
 
+require('node-jsx').install();
+
 var goodOpts = {
   opsInterval: 1000,
   reporters:[

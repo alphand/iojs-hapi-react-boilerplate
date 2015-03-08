@@ -3,6 +3,7 @@
 
 // var Utils = require("./controllers/utils");
 // var Home = require("./controllers/home");
+var ReactCtrl = require("./controllers/react");
 
 
 var routes = [
@@ -14,6 +15,11 @@ var routes = [
         path:__dirname+"/statics/index.html"
       }
     }
+  },
+  {
+    method:'GET',
+    path:'/react/{path*}',
+    handler: ReactCtrl
   },
   {
     method:"GET",
