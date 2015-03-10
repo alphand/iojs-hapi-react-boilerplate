@@ -3,7 +3,7 @@ var path = {
     src:"./src",
     dest:{
       dist:"./dist",
-      assets: "./dist/assets"
+      assets: "./lib/statics/assets"
     },
     sass:[
       "./styles/**/!(_)*.scss"
@@ -23,7 +23,7 @@ module.exports = {
   },
   images: {
     src: path.src + "/images/**",
-    dest: "./static/images"
+    dest: "./lib/statics/assets/images"
   },
   path: path
 }

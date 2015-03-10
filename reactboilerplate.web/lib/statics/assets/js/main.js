@@ -1,32 +1,16 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"./src/main.jsx":[function(require,module,exports){
 var React = require('react');
 var Router = require('react-router');
+var Routes = require('./router.jsx');
 
-var Route = Router.Route,
-    DefaultRoute = Router.DefaultRoute,
-    NotFoundRoute = Router.NotFoundRoute,
-    RouteHandler = Router.RouteHandler,
-    Link = Router.Link; 
-
-
-var App = require("./app.jsx");
-var NotFound = require("./components/common/notfound.jsx");
+document.addEventListener('DOMContentLoaded', function(e){
+  Router.run(Routes, Router.HistoryLocation, function(Handler){
+    React.render(React.createElement(Handler, null), document.body);
+  });
+})
 
 
-var routes = (
-    React.createElement(Route, null, 
-      React.createElement(Route, {name: "main", path: "/", handler: App}, 
-        React.createElement(DefaultRoute, {handler: App})
-      ), 
-      React.createElement(NotFoundRoute, {handler: NotFound})
-    )
-);
-
-Router.run(routes, function(Handler){
-  React.render(React.createElement(Handler, null), document.body);
-});
-
-},{"./app.jsx":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/src/app.jsx","./components/common/notfound.jsx":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/src/components/common/notfound.jsx","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Cancellation.js":[function(require,module,exports){
+},{"./router.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/router.jsx","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -36,7 +20,7 @@ Router.run(routes, function(Handler){
 function Cancellation() {}
 
 module.exports = Cancellation;
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Configuration.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js":[function(require,module,exports){
 "use strict";
 
 var warning = require("react/lib/warning");
@@ -69,7 +53,7 @@ var Configuration = {
 };
 
 module.exports = Configuration;
-},{"react/lib/invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/History.js":[function(require,module,exports){
+},{"react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js":[function(require,module,exports){
 "use strict";
 
 var invariant = require("react/lib/invariant");
@@ -100,7 +84,7 @@ var History = {
 };
 
 module.exports = History;
-},{"react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Match.js":[function(require,module,exports){
+},{"react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Match.js":[function(require,module,exports){
 "use strict";
 
 var _prototypeProperties = function (child, staticProps, instanceProps) { if (staticProps) Object.defineProperties(child, staticProps); if (instanceProps) Object.defineProperties(child.prototype, instanceProps); };
@@ -180,7 +164,7 @@ var Match = (function () {
 })();
 
 module.exports = Match;
-},{"./PathUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PathUtils.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Navigation.js":[function(require,module,exports){
+},{"./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Navigation.js":[function(require,module,exports){
 "use strict";
 
 var PropTypes = require("./PropTypes");
@@ -255,7 +239,7 @@ var Navigation = {
 };
 
 module.exports = Navigation;
-},{"./PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/NavigationContext.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/NavigationContext.js":[function(require,module,exports){
 "use strict";
 
 var PropTypes = require("./PropTypes");
@@ -286,7 +270,7 @@ var NavigationContext = {
 };
 
 module.exports = NavigationContext;
-},{"./PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PathUtils.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js":[function(require,module,exports){
 "use strict";
 
 var invariant = require("react/lib/invariant");
@@ -440,7 +424,7 @@ var PathUtils = {
 };
 
 module.exports = PathUtils;
-},{"qs":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/index.js","qs/lib/utils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/lib/utils.js","react/lib/invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js":[function(require,module,exports){
+},{"qs":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/index.js","qs/lib/utils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js":[function(require,module,exports){
 "use strict";
 
 var assign = require("react/lib/Object.assign");
@@ -460,7 +444,7 @@ var PropTypes = assign({
 }, ReactPropTypes);
 
 module.exports = PropTypes;
-},{"react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Redirect.js":[function(require,module,exports){
+},{"react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Redirect.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -473,7 +457,7 @@ function Redirect(to, params, query) {
 }
 
 module.exports = Redirect;
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Route.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js":[function(require,module,exports){
 "use strict";
 
 var _prototypeProperties = function (child, staticProps, instanceProps) { if (staticProps) Object.defineProperties(child, staticProps); if (instanceProps) Object.defineProperties(child.prototype, instanceProps); };
@@ -693,7 +677,7 @@ var Route = (function () {
 })();
 
 module.exports = Route;
-},{"./PathUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PathUtils.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","react/lib/invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/RouteHandlerMixin.js":[function(require,module,exports){
+},{"./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/RouteHandlerMixin.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -748,7 +732,7 @@ var RouteHandlerMixin = {
 };
 
 module.exports = RouteHandlerMixin;
-},{"./PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/ScrollHistory.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/ScrollHistory.js":[function(require,module,exports){
 "use strict";
 
 var invariant = require("react/lib/invariant");
@@ -824,7 +808,7 @@ var ScrollHistory = {
 };
 
 module.exports = ScrollHistory;
-},{"./getWindowScrollPosition":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/getWindowScrollPosition.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/State.js":[function(require,module,exports){
+},{"./getWindowScrollPosition":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/getWindowScrollPosition.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/State.js":[function(require,module,exports){
 "use strict";
 
 var PropTypes = require("./PropTypes");
@@ -904,7 +888,7 @@ var State = {
 };
 
 module.exports = State;
-},{"./PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/StateContext.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/StateContext.js":[function(require,module,exports){
 "use strict";
 
 var assign = require("react/lib/Object.assign");
@@ -1001,7 +985,7 @@ var StateContext = {
 };
 
 module.exports = StateContext;
-},{"./PathUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PathUtils.js","./PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Transition.js":[function(require,module,exports){
+},{"./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Transition.js":[function(require,module,exports){
 "use strict";
 
 /* jshint -W058 */
@@ -1077,7 +1061,7 @@ Transition.to = function (transition, routes, params, query, callback) {
 };
 
 module.exports = Transition;
-},{"./Cancellation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Cancellation.js","./Redirect":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Redirect.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/actions/LocationActions.js":[function(require,module,exports){
+},{"./Cancellation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js","./Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Redirect.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -1103,7 +1087,7 @@ var LocationActions = {
 };
 
 module.exports = LocationActions;
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js":[function(require,module,exports){
 "use strict";
 
 var LocationActions = require("../actions/LocationActions");
@@ -1133,7 +1117,7 @@ var ImitateBrowserBehavior = {
 };
 
 module.exports = ImitateBrowserBehavior;
-},{"../actions/LocationActions":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/actions/LocationActions.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js":[function(require,module,exports){
+},{"../actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -1149,7 +1133,7 @@ var ScrollToTopBehavior = {
 };
 
 module.exports = ScrollToTopBehavior;
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/DefaultRoute.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/DefaultRoute.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -1178,7 +1162,7 @@ var DefaultRoute = React.createClass({
 });
 
 module.exports = DefaultRoute;
-},{"../Configuration":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/Link.js":[function(require,module,exports){
+},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Link.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -1291,7 +1275,7 @@ var Link = React.createClass({
 });
 
 module.exports = Link;
-},{"../Navigation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Navigation.js","../PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js","../Route":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Route.js","../State":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/State.js","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","react/lib/cx":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/cx.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/NotFoundRoute.js":[function(require,module,exports){
+},{"../Navigation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Navigation.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","../Route":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","../State":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/State.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","react/lib/cx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/cx.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/NotFoundRoute.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -1321,7 +1305,7 @@ var NotFoundRoute = React.createClass({
 });
 
 module.exports = NotFoundRoute;
-},{"../Configuration":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/Redirect.js":[function(require,module,exports){
+},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Redirect.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -1348,7 +1332,7 @@ var Redirect = React.createClass({
 });
 
 module.exports = Redirect;
-},{"../Configuration":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/Route.js":[function(require,module,exports){
+},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Route.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -1417,7 +1401,7 @@ var Route = React.createClass({
 });
 
 module.exports = Route;
-},{"../Configuration":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js","./RouteHandler":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/RouteHandler.js","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/RouteHandler.js":[function(require,module,exports){
+},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","./RouteHandler":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/RouteHandler.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/RouteHandler.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -1440,7 +1424,7 @@ var RouteHandler = React.createClass({
 });
 
 module.exports = RouteHandler;
-},{"../RouteHandlerMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/RouteHandlerMixin.js","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/createRouter.js":[function(require,module,exports){
+},{"../RouteHandlerMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/RouteHandlerMixin.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRouter.js":[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -1900,7 +1884,7 @@ function createRouter(options) {
 module.exports = createRouter;
 }).call(this,require('_process'))
 
-},{"./Cancellation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Cancellation.js","./History":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/History.js","./Match":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Match.js","./NavigationContext":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/NavigationContext.js","./PathUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PathUtils.js","./PropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/PropTypes.js","./Redirect":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Redirect.js","./Route":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Route.js","./ScrollHistory":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/ScrollHistory.js","./StateContext":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/StateContext.js","./Transition":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Transition.js","./actions/LocationActions":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/actions/LocationActions.js","./behaviors/ImitateBrowserBehavior":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","./createRoutesFromReactChildren":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/createRoutesFromReactChildren.js","./isReactChildren":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/isReactChildren.js","./locations/HashLocation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/HashLocation.js","./locations/HistoryLocation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/StaticLocation.js","./supportsHistory":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/supportsHistory.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/createRoutesFromReactChildren.js":[function(require,module,exports){
+},{"./Cancellation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js","./History":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","./Match":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Match.js","./NavigationContext":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/NavigationContext.js","./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","./Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Redirect.js","./Route":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","./ScrollHistory":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/ScrollHistory.js","./StateContext":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/StateContext.js","./Transition":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Transition.js","./actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js","./behaviors/ImitateBrowserBehavior":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","./createRoutesFromReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRoutesFromReactChildren.js","./isReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/isReactChildren.js","./locations/HashLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HashLocation.js","./locations/HistoryLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/StaticLocation.js","./supportsHistory":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/supportsHistory.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRoutesFromReactChildren.js":[function(require,module,exports){
 "use strict";
 
 /* jshint -W084 */
@@ -1983,7 +1967,7 @@ function createRoutesFromReactChildren(children) {
 }
 
 module.exports = createRoutesFromReactChildren;
-},{"./Route":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Route.js","./components/DefaultRoute":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/DefaultRoute.js","./components/NotFoundRoute":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/NotFoundRoute.js","./components/Redirect":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/Redirect.js","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","react/lib/warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/getWindowScrollPosition.js":[function(require,module,exports){
+},{"./Route":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","./components/DefaultRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/DefaultRoute.js","./components/NotFoundRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/NotFoundRoute.js","./components/Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Redirect.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/getWindowScrollPosition.js":[function(require,module,exports){
 "use strict";
 
 var invariant = require("react/lib/invariant");
@@ -2002,7 +1986,7 @@ function getWindowScrollPosition() {
 }
 
 module.exports = getWindowScrollPosition;
-},{"react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/index.js":[function(require,module,exports){
+},{"react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js":[function(require,module,exports){
 "use strict";
 
 exports.DefaultRoute = require("./components/DefaultRoute");
@@ -2032,7 +2016,7 @@ exports.createRedirect = require("./Route").createRedirect;
 exports.createRoutesFromReactChildren = require("./createRoutesFromReactChildren");
 exports.create = require("./createRouter");
 exports.run = require("./runRouter");
-},{"./History":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/History.js","./Navigation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Navigation.js","./Route":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/Route.js","./RouteHandlerMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/RouteHandlerMixin.js","./State":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/State.js","./behaviors/ImitateBrowserBehavior":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","./behaviors/ScrollToTopBehavior":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js","./components/DefaultRoute":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/DefaultRoute.js","./components/Link":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/Link.js","./components/NotFoundRoute":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/NotFoundRoute.js","./components/Redirect":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/Redirect.js","./components/Route":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/Route.js","./components/RouteHandler":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/components/RouteHandler.js","./createRouter":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/createRouter.js","./createRoutesFromReactChildren":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/createRoutesFromReactChildren.js","./locations/HashLocation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/HashLocation.js","./locations/HistoryLocation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/StaticLocation.js","./runRouter":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/runRouter.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/isReactChildren.js":[function(require,module,exports){
+},{"./History":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","./Navigation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Navigation.js","./Route":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","./RouteHandlerMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/RouteHandlerMixin.js","./State":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/State.js","./behaviors/ImitateBrowserBehavior":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","./behaviors/ScrollToTopBehavior":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js","./components/DefaultRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/DefaultRoute.js","./components/Link":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Link.js","./components/NotFoundRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/NotFoundRoute.js","./components/Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Redirect.js","./components/Route":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Route.js","./components/RouteHandler":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/RouteHandler.js","./createRouter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRouter.js","./createRoutesFromReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRoutesFromReactChildren.js","./locations/HashLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HashLocation.js","./locations/HistoryLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/StaticLocation.js","./runRouter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/runRouter.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/isReactChildren.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -2046,7 +2030,7 @@ function isReactChildren(object) {
 }
 
 module.exports = isReactChildren;
-},{"react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/HashLocation.js":[function(require,module,exports){
+},{"react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HashLocation.js":[function(require,module,exports){
 "use strict";
 
 var LocationActions = require("../actions/LocationActions");
@@ -2165,7 +2149,7 @@ var HashLocation = {
 };
 
 module.exports = HashLocation;
-},{"../History":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/actions/LocationActions.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/HistoryLocation.js":[function(require,module,exports){
+},{"../History":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js":[function(require,module,exports){
 "use strict";
 
 var LocationActions = require("../actions/LocationActions");
@@ -2258,7 +2242,7 @@ var HistoryLocation = {
 };
 
 module.exports = HistoryLocation;
-},{"../History":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/actions/LocationActions.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/RefreshLocation.js":[function(require,module,exports){
+},{"../History":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/RefreshLocation.js":[function(require,module,exports){
 "use strict";
 
 var HistoryLocation = require("./HistoryLocation");
@@ -2290,7 +2274,7 @@ var RefreshLocation = {
 };
 
 module.exports = RefreshLocation;
-},{"../History":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/History.js","./HistoryLocation":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/HistoryLocation.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/locations/StaticLocation.js":[function(require,module,exports){
+},{"../History":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","./HistoryLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/StaticLocation.js":[function(require,module,exports){
 "use strict";
 
 var _prototypeProperties = function (child, staticProps, instanceProps) { if (staticProps) Object.defineProperties(child, staticProps); if (instanceProps) Object.defineProperties(child.prototype, instanceProps); };
@@ -2343,7 +2327,7 @@ StaticLocation.prototype.replace = throwCannotModify;
 StaticLocation.prototype.pop = throwCannotModify;
 
 module.exports = StaticLocation;
-},{"react/lib/invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/runRouter.js":[function(require,module,exports){
+},{"react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/runRouter.js":[function(require,module,exports){
 "use strict";
 
 var createRouter = require("./createRouter");
@@ -2394,7 +2378,7 @@ function runRouter(routes, location, callback) {
 }
 
 module.exports = runRouter;
-},{"./createRouter":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/createRouter.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/lib/supportsHistory.js":[function(require,module,exports){
+},{"./createRouter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRouter.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/supportsHistory.js":[function(require,module,exports){
 "use strict";
 
 function supportsHistory() {
@@ -2411,10 +2395,10 @@ function supportsHistory() {
 }
 
 module.exports = supportsHistory;
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/index.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/index.js":[function(require,module,exports){
 module.exports = require('./lib/');
 
-},{"./lib/":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/lib/index.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/lib/index.js":[function(require,module,exports){
+},{"./lib/":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/index.js":[function(require,module,exports){
 // Load modules
 
 var Stringify = require('./stringify');
@@ -2431,7 +2415,7 @@ module.exports = {
     parse: Parse
 };
 
-},{"./parse":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/lib/parse.js","./stringify":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/lib/stringify.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/lib/parse.js":[function(require,module,exports){
+},{"./parse":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/parse.js","./stringify":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/stringify.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/parse.js":[function(require,module,exports){
 // Load modules
 
 var Utils = require('./utils');
@@ -2590,7 +2574,7 @@ module.exports = function (str, options) {
     return Utils.compact(obj);
 };
 
-},{"./utils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/lib/stringify.js":[function(require,module,exports){
+},{"./utils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/stringify.js":[function(require,module,exports){
 // Load modules
 
 var Utils = require('./utils');
@@ -2669,7 +2653,7 @@ module.exports = function (obj, options) {
     return keys.join(delimiter);
 };
 
-},{"./utils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react-router/node_modules/qs/lib/utils.js":[function(require,module,exports){
+},{"./utils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js":[function(require,module,exports){
 // Load modules
 
 
@@ -2803,7 +2787,7 @@ exports.isBuffer = function (obj) {
         obj.constructor.isBuffer(obj));
 };
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -2830,7 +2814,7 @@ var AutoFocusMixin = {
 
 module.exports = AutoFocusMixin;
 
-},{"./focusNode":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/focusNode.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
+},{"./focusNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/focusNode.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -3052,7 +3036,7 @@ var BeforeInputEventPlugin = {
 
 module.exports = BeforeInputEventPlugin;
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyOf.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -3171,7 +3155,7 @@ var CSSProperty = {
 
 module.exports = CSSProperty;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3307,7 +3291,7 @@ module.exports = CSSPropertyOperations;
 
 }).call(this,require('_process'))
 
-},{"./CSSProperty":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3408,7 +3392,7 @@ module.exports = CallbackQueue;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/PooledClass.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -3790,7 +3774,7 @@ var ChangeEventPlugin = {
 
 module.exports = ChangeEventPlugin;
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyOf.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -3815,7 +3799,7 @@ var ClientReactRootIndex = {
 
 module.exports = ClientReactRootIndex;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -4074,7 +4058,7 @@ var CompositionEventPlugin = {
 
 module.exports = CompositionEventPlugin;
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyOf.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4250,7 +4234,7 @@ module.exports = DOMChildrenOperations;
 
 }).call(this,require('_process'))
 
-},{"./Danger":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
+},{"./Danger":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4550,7 +4534,7 @@ module.exports = DOMProperty;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4748,7 +4732,7 @@ module.exports = DOMPropertyOperations;
 
 }).call(this,require('_process'))
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Danger.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Danger.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4935,7 +4919,7 @@ module.exports = Danger;
 
 }).call(this,require('_process'))
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -4975,7 +4959,7 @@ var DefaultEventPluginOrder = [
 
 module.exports = DefaultEventPluginOrder;
 
-},{"./keyOf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyOf.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
+},{"./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -5115,7 +5099,7 @@ var EnterLeaveEventPlugin = {
 
 module.exports = EnterLeaveEventPlugin;
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyOf.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -5187,7 +5171,7 @@ var EventConstants = {
 
 module.exports = EventConstants;
 
-},{"./keyMirror":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyMirror.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventListener.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventListener.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014 Facebook, Inc.
@@ -5278,7 +5262,7 @@ module.exports = EventListener;
 
 }).call(this,require('_process'))
 
-},{"./emptyFunction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5555,7 +5539,7 @@ module.exports = EventPluginHub;
 
 }).call(this,require('_process'))
 
-},{"./EventPluginRegistry":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
+},{"./EventPluginRegistry":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5836,7 +5820,7 @@ module.exports = EventPluginRegistry;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6058,7 +6042,7 @@ module.exports = EventPluginUtils;
 
 }).call(this,require('_process'))
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6201,7 +6185,7 @@ module.exports = EventPropagators;
 
 }).call(this,require('_process'))
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -6246,7 +6230,7 @@ var ExecutionEnvironment = {
 
 module.exports = ExecutionEnvironment;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -6438,7 +6422,7 @@ var HTMLDOMPropertyConfig = {
 
 module.exports = HTMLDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6595,7 +6579,7 @@ module.exports = LinkedValueUtils;
 
 }).call(this,require('_process'))
 
-},{"./ReactPropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
+},{"./ReactPropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -6646,7 +6630,7 @@ module.exports = LocalEventTrapMixin;
 
 }).call(this,require('_process'))
 
-},{"./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -6704,7 +6688,7 @@ var MobileSafariClickEventPlugin = {
 
 module.exports = MobileSafariClickEventPlugin;
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyFunction.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -6751,7 +6735,7 @@ function assign(target, sources) {
 
 module.exports = assign;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6868,7 +6852,7 @@ module.exports = PooledClass;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/React.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/React.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7057,7 +7041,7 @@ module.exports = React;
 
 }).call(this,require('_process'))
 
-},{"./DOMPropertyOperations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/deprecated.js","./onlyChild":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/onlyChild.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js","./onlyChild":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/onlyChild.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7101,7 +7085,7 @@ module.exports = ReactBrowserComponentMixin;
 
 }).call(this,require('_process'))
 
-},{"./ReactEmptyComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
+},{"./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -7456,7 +7440,7 @@ var ReactBrowserEventEmitter = assign({}, ReactEventEmitterMixin, {
 
 module.exports = ReactBrowserEventEmitter;
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isEventSupported.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7607,7 +7591,7 @@ module.exports = ReactChildren;
 
 }).call(this,require('_process'))
 
-},{"./PooledClass":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
+},{"./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8051,7 +8035,7 @@ module.exports = ReactComponent;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactOwner":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./keyMirror":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8174,7 +8158,7 @@ module.exports = ReactComponentBrowserEnvironment;
 
 }).call(this,require('_process'))
 
-},{"./ReactDOMIDOperations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/setInnerHTML.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
+},{"./ReactDOMIDOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/setInnerHTML.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9615,7 +9599,7 @@ module.exports = ReactCompositeComponent;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./keyMirror":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyOf.js","./mapObject":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./mapObject":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9677,7 +9661,7 @@ var ReactContext = {
 
 module.exports = ReactContext;
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9711,7 +9695,7 @@ var ReactCurrentOwner = {
 
 module.exports = ReactCurrentOwner;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9895,7 +9879,7 @@ module.exports = ReactDOM;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/mapObject.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/mapObject.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9960,7 +9944,7 @@ var ReactDOMButton = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMButton;
 
-},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyMirror.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10448,7 +10432,7 @@ module.exports = ReactDOMComponent;
 
 }).call(this,require('_process'))
 
-},{"./CSSPropertyOperations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactComponent.js","./ReactMount":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/monitorCodeUse.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10498,7 +10482,7 @@ var ReactDOMForm = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMForm;
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10685,7 +10669,7 @@ module.exports = ReactDOMIDOperations;
 
 }).call(this,require('_process'))
 
-},{"./CSSPropertyOperations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/setInnerHTML.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/setInnerHTML.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10733,7 +10717,7 @@ var ReactDOMImg = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMImg;
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10912,7 +10896,7 @@ module.exports = ReactDOMInput;
 
 }).call(this,require('_process'))
 
-},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10966,7 +10950,7 @@ module.exports = ReactDOMOption;
 
 }).call(this,require('_process'))
 
-},{"./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11150,7 +11134,7 @@ var ReactDOMSelect = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMSelect;
 
-},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactUpdates.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11359,7 +11343,7 @@ var ReactDOMSelection = {
 
 module.exports = ReactDOMSelection;
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11501,7 +11485,7 @@ module.exports = ReactDOMTextarea;
 
 }).call(this,require('_process'))
 
-},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11574,7 +11558,7 @@ var ReactDefaultBatchingStrategy = {
 
 module.exports = ReactDefaultBatchingStrategy;
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyFunction.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11704,7 +11688,7 @@ module.exports = {
 
 }).call(this,require('_process'))
 
-},{"./BeforeInputEventPlugin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
+},{"./BeforeInputEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11964,7 +11948,7 @@ var ReactDefaultPerf = {
 
 module.exports = ReactDefaultPerf;
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/performanceNow.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/performanceNow.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12170,7 +12154,7 @@ var ReactDefaultPerfAnalysis = {
 
 module.exports = ReactDefaultPerfAnalysis;
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -12417,7 +12401,7 @@ module.exports = ReactElement;
 
 }).call(this,require('_process'))
 
-},{"./ReactContext":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
+},{"./ReactContext":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -12700,7 +12684,7 @@ module.exports = ReactElementValidator;
 
 }).call(this,require('_process'))
 
-},{"./ReactCurrentOwner":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -12778,7 +12762,7 @@ module.exports = ReactEmptyComponent;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12810,7 +12794,7 @@ var ReactErrorUtils = {
 
 module.exports = ReactErrorUtils;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12860,7 +12844,7 @@ var ReactEventEmitterMixin = {
 
 module.exports = ReactEventEmitterMixin;
 
-},{"./EventPluginHub":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginHub.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
+},{"./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13044,7 +13028,7 @@ var ReactEventListener = {
 
 module.exports = ReactEventListener;
 
-},{"./EventListener":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
+},{"./EventListener":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13084,7 +13068,7 @@ var ReactInjection = {
 
 module.exports = ReactInjection;
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactUpdates.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13220,7 +13204,7 @@ var ReactInputSelection = {
 
 module.exports = ReactInputSelection;
 
-},{"./ReactDOMSelection":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/containsNode.js","./focusNode":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getActiveElement.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
+},{"./ReactDOMSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/containsNode.js","./focusNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getActiveElement.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13556,7 +13540,7 @@ module.exports = ReactInstanceHandles;
 
 }).call(this,require('_process'))
 
-},{"./ReactRootIndex":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
+},{"./ReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -13804,7 +13788,7 @@ module.exports = ReactLegacyElementFactory;
 
 }).call(this,require('_process'))
 
-},{"./ReactCurrentOwner":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13852,7 +13836,7 @@ var ReactMarkupChecksum = {
 
 module.exports = ReactMarkupChecksum;
 
-},{"./adler32":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/adler32.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
+},{"./adler32":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/adler32.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14551,7 +14535,7 @@ module.exports = ReactMount;
 
 }).call(this,require('_process'))
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPerf.js","./containsNode":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/containsNode.js","./deprecated":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./containsNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/containsNode.js","./deprecated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14979,7 +14963,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 
-},{"./ReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
+},{"./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15012,7 +14996,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 
 module.exports = ReactMultiChildUpdateTypes;
 
-},{"./keyMirror":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyMirror.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -15086,7 +15070,7 @@ module.exports = ReactNativeComponent;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15243,7 +15227,7 @@ module.exports = ReactOwner;
 
 }).call(this,require('_process'))
 
-},{"./emptyObject":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyObject.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
+},{"./emptyObject":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyObject.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15328,7 +15312,7 @@ module.exports = ReactPerf;
 
 }).call(this,require('_process'))
 
-},{"_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15496,7 +15480,7 @@ module.exports = ReactPropTransferer;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyFunction.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./joinClasses":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/joinClasses.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./joinClasses":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/joinClasses.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15525,7 +15509,7 @@ module.exports = ReactPropTypeLocationNames;
 
 }).call(this,require('_process'))
 
-},{"_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15549,7 +15533,7 @@ var ReactPropTypeLocations = keyMirror({
 
 module.exports = ReactPropTypeLocations;
 
-},{"./keyMirror":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyMirror.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15903,7 +15887,7 @@ function getPreciseType(propValue) {
 
 module.exports = ReactPropTypes;
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/deprecated.js","./emptyFunction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyFunction.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15959,7 +15943,7 @@ PooledClass.addPoolingTo(ReactPutListenerQueue);
 
 module.exports = ReactPutListenerQueue;
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16135,7 +16119,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 
-},{"./CallbackQueue":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Transaction.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16166,7 +16150,7 @@ var ReactRootIndex = {
 
 module.exports = ReactRootIndex;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16247,7 +16231,7 @@ module.exports = {
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -16360,7 +16344,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 
-},{"./CallbackQueue":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyFunction.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16466,7 +16450,7 @@ ReactTextComponentFactory.type = ReactTextComponent;
 
 module.exports = ReactTextComponentFactory;
 
-},{"./DOMPropertyOperations":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactComponent.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/escapeTextForBrowser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16757,7 +16741,7 @@ module.exports = ReactUpdates;
 
 }).call(this,require('_process'))
 
-},{"./CallbackQueue":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactPerf.js","./Transaction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Transaction.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16849,7 +16833,7 @@ var SVGDOMPropertyConfig = {
 
 module.exports = SVGDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/DOMProperty.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17044,7 +17028,7 @@ var SelectEventPlugin = {
 
 module.exports = SelectEventPlugin;
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/shallowEqual.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shallowEqual.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17075,7 +17059,7 @@ var ServerReactRootIndex = {
 
 module.exports = ServerReactRootIndex;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17504,7 +17488,7 @@ module.exports = SimpleEventPlugin;
 
 }).call(this,require('_process'))
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","./keyOf":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyOf.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17550,7 +17534,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 
-},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticEvent.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17596,7 +17580,7 @@ SyntheticEvent.augmentClass(
 module.exports = SyntheticCompositionEvent;
 
 
-},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticEvent.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17635,7 +17619,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
 
-},{"./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17793,7 +17777,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.threeArgumentPooler);
 
 module.exports = SyntheticEvent;
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventTarget.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17832,7 +17816,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
 
-},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -17879,7 +17863,7 @@ SyntheticEvent.augmentClass(
 module.exports = SyntheticInputEvent;
 
 
-},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticEvent.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17966,7 +17950,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
 
-},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventModifierState.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18049,7 +18033,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
 
-},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventModifierState.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18097,7 +18081,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
 
-},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventModifierState.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18159,7 +18143,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
 
-},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventTarget.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18220,7 +18204,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
 
-},{"./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Transaction.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18462,7 +18446,7 @@ module.exports = Transaction;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18494,7 +18478,7 @@ var ViewportMetrics = {
 
 module.exports = ViewportMetrics;
 
-},{"./getUnboundedScrollPosition":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
+},{"./getUnboundedScrollPosition":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -18561,7 +18545,7 @@ module.exports = accumulateInto;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/adler32.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/adler32.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18595,7 +18579,7 @@ function adler32(data) {
 
 module.exports = adler32;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/camelize.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/camelize.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18627,7 +18611,7 @@ function camelize(string) {
 
 module.exports = camelize;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -18669,7 +18653,7 @@ function camelizeStyleName(string) {
 
 module.exports = camelizeStyleName;
 
-},{"./camelize":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/camelize.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/containsNode.js":[function(require,module,exports){
+},{"./camelize":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/camelize.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/containsNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18713,7 +18697,7 @@ function containsNode(outerNode, innerNode) {
 
 module.exports = containsNode;
 
-},{"./isTextNode":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isTextNode.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
+},{"./isTextNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isTextNode.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18799,7 +18783,7 @@ function createArrayFrom(obj) {
 
 module.exports = createArrayFrom;
 
-},{"./toArray":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/toArray.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
+},{"./toArray":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/toArray.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18861,7 +18845,7 @@ module.exports = createFullPageComponent;
 
 }).call(this,require('_process'))
 
-},{"./ReactCompositeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
+},{"./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18952,7 +18936,7 @@ module.exports = createNodesFromMarkup;
 
 }).call(this,require('_process'))
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/cx.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/cx.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18991,7 +18975,7 @@ function cx(classNames) {
 
 module.exports = cx;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19049,7 +19033,7 @@ function dangerousStyleValue(name, value) {
 
 module.exports = dangerousStyleValue;
 
-},{"./CSSProperty":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/CSSProperty.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/deprecated.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSProperty.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19101,7 +19085,7 @@ module.exports = deprecated;
 
 }).call(this,require('_process'))
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/Object.assign.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19135,7 +19119,7 @@ emptyFunction.thatReturnsArgument = function(arg) { return arg; };
 
 module.exports = emptyFunction;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19160,7 +19144,7 @@ module.exports = emptyObject;
 
 }).call(this,require('_process'))
 
-},{"_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19201,7 +19185,7 @@ function escapeTextForBrowser(text) {
 
 module.exports = escapeTextForBrowser;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19271,7 +19255,7 @@ module.exports = flattenChildren;
 
 }).call(this,require('_process'))
 
-},{"./ReactTextComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/focusNode.js":[function(require,module,exports){
+},{"./ReactTextComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/focusNode.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -19300,7 +19284,7 @@ function focusNode(node) {
 
 module.exports = focusNode;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19331,7 +19315,7 @@ var forEachAccumulated = function(arr, cb, scope) {
 
 module.exports = forEachAccumulated;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19360,7 +19344,7 @@ function getActiveElement() /*?DOMElement*/ {
 
 module.exports = getActiveElement;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19412,7 +19396,7 @@ function getEventCharCode(nativeEvent) {
 
 module.exports = getEventCharCode;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19517,7 +19501,7 @@ function getEventKey(nativeEvent) {
 
 module.exports = getEventKey;
 
-},{"./getEventCharCode":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventCharCode.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
+},{"./getEventCharCode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -19564,7 +19548,7 @@ function getEventModifierState(nativeEvent) {
 
 module.exports = getEventModifierState;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19595,7 +19579,7 @@ function getEventTarget(nativeEvent) {
 
 module.exports = getEventTarget;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19713,7 +19697,7 @@ module.exports = getMarkupWrap;
 
 }).call(this,require('_process'))
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19788,7 +19772,7 @@ function getNodeForCharacterOffset(root, offset) {
 
 module.exports = getNodeForCharacterOffset;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19823,7 +19807,7 @@ function getReactRootElementInContainer(container) {
 
 module.exports = getReactRootElementInContainer;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19860,7 +19844,7 @@ function getTextContentAccessor() {
 
 module.exports = getTextContentAccessor;
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19900,7 +19884,7 @@ function getUnboundedScrollPosition(scrollable) {
 
 module.exports = getUnboundedScrollPosition;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19933,7 +19917,7 @@ function hyphenate(string) {
 
 module.exports = hyphenate;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19974,7 +19958,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{"./hyphenate":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/hyphenate.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
+},{"./hyphenate":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/hyphenate.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20089,7 +20073,7 @@ module.exports = instantiateReactComponent;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactNativeComponent.js","./warning":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactNativeComponent.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20147,7 +20131,7 @@ module.exports = invariant;
 
 }).call(this,require('_process'))
 
-},{"_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20212,7 +20196,7 @@ function isEventSupported(eventNameSuffix, capture) {
 
 module.exports = isEventSupported;
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isNode.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20240,7 +20224,7 @@ function isNode(object) {
 
 module.exports = isNode;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20284,7 +20268,7 @@ function isTextInputElement(elem) {
 
 module.exports = isTextInputElement;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20309,7 +20293,7 @@ function isTextNode(object) {
 
 module.exports = isTextNode;
 
-},{"./isNode":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/isNode.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
+},{"./isNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isNode.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20350,7 +20334,7 @@ function joinClasses(className/*, ... */) {
 
 module.exports = joinClasses;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20406,7 +20390,7 @@ module.exports = keyMirror;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/keyOf.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20442,7 +20426,7 @@ var keyOf = function(oneKeyObj) {
 
 module.exports = keyOf;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/mapObject.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/mapObject.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20495,7 +20479,7 @@ function mapObject(object, callback, context) {
 
 module.exports = mapObject;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20529,7 +20513,7 @@ function memoizeStringOnly(callback) {
 
 module.exports = memoizeStringOnly;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -20564,7 +20548,7 @@ module.exports = monitorCodeUse;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20605,7 +20589,7 @@ module.exports = onlyChild;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/performance.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/performance.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20633,7 +20617,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = performance || {};
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20661,7 +20645,7 @@ var performanceNow = performance.now.bind(performance);
 
 module.exports = performanceNow;
 
-},{"./performance":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/performance.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
+},{"./performance":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/performance.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20739,7 +20723,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setInnerHTML;
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20783,7 +20767,7 @@ function shallowEqual(objA, objB) {
 
 module.exports = shallowEqual;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -20821,7 +20805,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 
 module.exports = shouldUpdateReactComponent;
 
-},{}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/toArray.js":[function(require,module,exports){
+},{}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/toArray.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -20894,7 +20878,7 @@ module.exports = toArray;
 
 }).call(this,require('_process'))
 
-},{"./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -21078,7 +21062,7 @@ module.exports = traverseAllChildren;
 
 }).call(this,require('_process'))
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/warning.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -21124,10 +21108,10 @@ module.exports = warning;
 
 }).call(this,require('_process'))
 
-},{"./emptyFunction":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js":[function(require,module,exports){
 module.exports = require('./lib/React');
 
-},{"./lib/React":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/lib/React.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/src/app.jsx":[function(require,module,exports){
+},{"./lib/React":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/React.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/app.jsx":[function(require,module,exports){
 var React = require('react');
 var Layout = require("./components/common/layout.jsx")
 
@@ -21144,7 +21128,7 @@ var app = React.createClass({displayName: "app",
 });
 module.exports = app;
 
-},{"./components/common/layout.jsx":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/src/components/common/layout.jsx","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/src/components/common/footer.jsx":[function(require,module,exports){
+},{"./components/common/layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/layout.jsx","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/footer.jsx":[function(require,module,exports){
 var React = require('react');
 
 var footer = React.createClass({displayName: "footer",
@@ -21168,7 +21152,7 @@ var footer = React.createClass({displayName: "footer",
 
 module.exports = footer;
 
-},{"react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/src/components/common/layout.jsx":[function(require,module,exports){
+},{"react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/layout.jsx":[function(require,module,exports){
 var React = require('react');
 
 var Footer = require("./footer.jsx");
@@ -21193,7 +21177,7 @@ var layout = React.createClass({displayName: "layout",
 
 module.exports = layout;
 
-},{"./footer.jsx":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/src/components/common/footer.jsx","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/src/components/common/notfound.jsx":[function(require,module,exports){
+},{"./footer.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/footer.jsx","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/notfound.jsx":[function(require,module,exports){
 var React = require('react');
 var Layout = require('./layout.jsx');
 
@@ -21211,7 +21195,33 @@ var notfound = React.createClass({displayName: "notfound",
 
 module.exports = notfound;
 
-},{"./layout.jsx":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/src/components/common/layout.jsx","react":"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/go-react-flux-boilerplate/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/GOLANGDevs/packages/src/github.com/alphand/shared/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
+},{"./layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/layout.jsx","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/router.jsx":[function(require,module,exports){
+var React = require('react');
+var Router = require('react-router');
+
+var Route = Router.Route,
+    DefaultRoute = Router.DefaultRoute,
+    NotFoundRoute = Router.NotFoundRoute,
+    RouteHandler = Router.RouteHandler,
+    Link = Router.Link; 
+
+
+var App = require("./app.jsx");
+var NotFound = require("./components/common/notfound.jsx");
+
+
+var routes = (
+    React.createElement(Route, null, 
+      React.createElement(Route, {name: "main", path: "/", handler: App}, 
+        React.createElement(DefaultRoute, {handler: App})
+      ), 
+      React.createElement(NotFoundRoute, {name: "not-found", handler: NotFound})
+    )
+);
+
+module.exports = routes;
+
+},{"./app.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/app.jsx","./components/common/notfound.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/notfound.jsx","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};

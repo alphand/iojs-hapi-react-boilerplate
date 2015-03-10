@@ -18,7 +18,7 @@ var routes = [
   },
   {
     method:'GET',
-    path:'/react/{path*}',
+    path:'/{path*}',
     handler: ReactCtrl
   },
   {
