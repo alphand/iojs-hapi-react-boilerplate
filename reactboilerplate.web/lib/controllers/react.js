@@ -2,11 +2,32 @@
 "use strict";
 
 var React = require("react/addons");
+var Router = require("react-router");
+
+var ReactRoutes = require("../../src/router.jsx");
 var ReactApp = React.createFactory(require("../../src/app.jsx"));
 
 var handler = function(req, reply){
-  var reactHtml = React.renderToString(ReactApp({}));
-  reply(reactHtml);
+  var serveurl = req.params.path;
+
+  if(!serveurl) 
+    serveurl = "/";
+  else
+    serveurl = "/" + serveurl;
+
+  Router.run(ReactRoutes, serveurl, function(Handler, state){
+
+    let isNotFound = state.routes.some(function(el){
+      return el.name === 'not-found';
+    });
+
+    var html = React.renderToStaticMarkup(<Handler/>);
+
+    if(isNotFound)
+      reply(html).code(404);
+    else
+      reply(html);
+  });
 }
 
 module.exports = handler;
