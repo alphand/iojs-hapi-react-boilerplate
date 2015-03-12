@@ -38,5 +38,4 @@ Please fork and do pull request as necessary
 -[ ] Isomorphic react with HTML5 support 
 -[ ] Transform to ES6 code 
 -[ ] Integration with ionic 
--[ ] Integration with material design 
- 
+-[ ] Integration with material design  
