@@ -35,8 +35,7 @@ go to each childfolder and do npm install
 Please fork and do pull request as necessary 
 
 ### Todo 
--[ ] Isomorphic react with HTML5 support 
--[ ] Transform to ES6 code 
--[ ] Integration with ionic 
--[ ] Integration with material design 
- 
+- [ ] Isomorphic react with HTML5 support 
+- [ ] Transform to ES6 code 
+- [ ] Integration with ionic 
+- [ ] Integration with material design  
