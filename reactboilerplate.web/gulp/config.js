@@ -14,12 +14,20 @@ module.exports = {
   browserify: {
     // Enable source maps
     debug: true,
-    bundleConfigs: [{
+    bundleConfigs: [
+    {
       entries: path.src + '/main.jsx',
       dest: path.dest.assets + "/js",
       outputName: 'main.js',
       extensions:['js','jsx']
-    }]
+    },
+    {
+      entries: path.src + '/router.jsx',
+      dest: "./lib/controllers/",
+      outputName: 'app-routes.js',
+      extensions:['js','jsx']
+    }
+    ]
   },
   images: {
     src: path.src + "/images/**",

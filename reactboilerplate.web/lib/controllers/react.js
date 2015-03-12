@@ -4,8 +4,7 @@
 var React = require("react/addons");
 var Router = require("react-router");
 
-var ReactRoutes = require("../../src/router.jsx");
-var ReactApp = React.createFactory(require("../../src/app.jsx"));
+var ReactRoutes = require("./app-routes");
 
 var handler = function(req, reply){
   var serveurl = req.params.path;
@@ -14,6 +13,8 @@ var handler = function(req, reply){
     serveurl = "/";
   else
     serveurl = "/" + serveurl;
+
+  console.log("serverul", serveurl);
 
   Router.run(ReactRoutes, serveurl, function(Handler, state){
 

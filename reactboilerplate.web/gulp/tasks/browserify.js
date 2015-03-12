@@ -23,8 +23,9 @@ var gutil        = require('gulp-util');
 var merge        = require('merge-stream');
 var plumber      = require('gulp-plumber');
 var jshint       = require('gulp-jshint');
-var stylish = require('jshint-stylish');
+var stylish      = require('jshint-stylish');
 var jsxhinter    = require('jshint-jsx');
+var babelify     = require('babelify');
 jsxhinter.JSHINT = jsxhinter.JSXHINT;
 
 
@@ -39,7 +40,7 @@ gulp.task('browserify',['lint'], function (callback) {
       // insertGlobals:true,
       // Required watchify args
       cache: {}, packageCache: {}, fullPaths: true,
-      transform: [reactify],
+      transform: [babelify, reactify],
       // Specify the entry point of your app
       entries: bundleConfig.entries,
       // Add file extentions to make optional in your requires

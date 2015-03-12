@@ -1,8 +1,7 @@
-var React = require('react');
-var Layout = require("./components/common/layout.jsx")
+import React from "react";
+import Layout from "./components/common/layout.jsx"
 
 var app = React.createClass({
-
   render: function() {
     return (
       <Layout>
@@ -10,6 +9,6 @@ var app = React.createClass({
       </Layout>
     );
   }
-
 });
-module.exports = app;
+
+export default app;

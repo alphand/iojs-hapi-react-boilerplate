@@ -1,18 +1,33 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"./src/main.jsx":[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"./src/router.jsx":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
 var Router = require("react-router");
-var Routes = require("./router.jsx");
 
-document.addEventListener("DOMContentLoaded", function (e) {
-  Router.run(Routes, Router.HistoryLocation, function (Handler) {
-    React.render(React.createElement(Handler, null), document.body);
-  });
-});
+var Route = Router.Route,
+    DefaultRoute = Router.DefaultRoute,
+    NotFoundRoute = Router.NotFoundRoute,
+    RouteHandler = Router.RouteHandler,
+    Link = Router.Link;
+
+var App = require("./app.jsx");
+var NotFound = require("./components/common/notfound.jsx");
+
+var routes = React.createElement(
+    Route,
+    null,
+    React.createElement(
+        Route,
+        { name: "main", path: "/", handler: App },
+        React.createElement(DefaultRoute, { handler: App })
+    ),
+    React.createElement(NotFoundRoute, { name: "not-found", handler: NotFound })
+);
+
+module.exports = routes;
 
 
-},{"./router.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/router.jsx","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js":[function(require,module,exports){
+},{"./app.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/app.jsx","./components/common/notfound.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/notfound.jsx","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -21237,36 +21252,7 @@ var notfound = React.createClass({
 module.exports = notfound;
 
 
-},{"./layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/layout.jsx","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/router.jsx":[function(require,module,exports){
-"use strict";
-
-var React = require("react");
-var Router = require("react-router");
-
-var Route = Router.Route,
-    DefaultRoute = Router.DefaultRoute,
-    NotFoundRoute = Router.NotFoundRoute,
-    RouteHandler = Router.RouteHandler,
-    Link = Router.Link;
-
-var App = require("./app.jsx");
-var NotFound = require("./components/common/notfound.jsx");
-
-var routes = React.createElement(
-    Route,
-    null,
-    React.createElement(
-        Route,
-        { name: "main", path: "/", handler: App },
-        React.createElement(DefaultRoute, { handler: App })
-    ),
-    React.createElement(NotFoundRoute, { name: "not-found", handler: NotFound })
-);
-
-module.exports = routes;
-
-
-},{"./app.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/app.jsx","./components/common/notfound.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/notfound.jsx","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
+},{"./layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/components/common/layout.jsx","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -21325,7 +21311,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},["./src/main.jsx"])
+},{}]},{},["./src/router.jsx"])
 
 
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=app-routes.js.map
