@@ -16,7 +16,7 @@ gulp.task('lint', function () {
   return gulp.src(['./src/**/*.jsx'])
     .pipe(plumber())
     // .pipe(jscs())
-    .pipe(jshint({linter:jsxhinter.JSHINT}))
+    .pipe(jshint({linter:jsxhinter.JSHINT, esnext:true}))
     .on('error', handleErrors)
     .pipe(jshint.reporter(stylish)); // Console output
 });

@@ -1,21 +1,9 @@
 /* jshint node:true */
 "use strict";
 
-// var Utils = require("./controllers/utils");
-// var Home = require("./controllers/home");
 var ReactCtrl = require("./controllers/react");
 
-
 var routes = [
-  {
-    method:"GET",
-    path:"/",
-    handler:{
-      file:{
-        path:__dirname+"/statics/index.html"
-      }
-    }
-  },
   {
     method:'GET',
     path:'/{path*}',

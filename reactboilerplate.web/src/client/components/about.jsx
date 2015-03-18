@@ -1,11 +1,11 @@
 import React from "react";
-import Layout from "./components/common/layout.jsx"
+import Layout from "./common/layout.jsx";
 
 var app = React.createClass({
   render: function() {
     return (
       <Layout>
-        <h1> Hai Dunia keep now! </h1>
+        <h1> Hai About US! </h1>
       </Layout>
     );
   }

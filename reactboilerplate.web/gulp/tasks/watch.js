@@ -15,7 +15,7 @@ gulp.task('watch', ['setWatch'], function () {
     // gulp.watch("./src/**/*.jsx", ['browserify']);
     // gulp.watch('./webapp/assets/images/**', ['images']);
     gulp.watch(config.path.dest.dist+"/**/*.*").on('change', function (file) {
-        livereload.changed(file.path);
+      livereload.changed(file.path);
     });
 });
 

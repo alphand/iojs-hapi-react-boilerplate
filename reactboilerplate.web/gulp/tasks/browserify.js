@@ -26,6 +26,7 @@ var jshint       = require('gulp-jshint');
 var stylish      = require('jshint-stylish');
 var jsxhinter    = require('jshint-jsx');
 var babelify     = require('babelify');
+var uglifyify    = require('uglifyify'); // still to slow to be used maybe only do it for prod
 jsxhinter.JSHINT = jsxhinter.JSXHINT;
 
 
@@ -46,7 +47,13 @@ gulp.task('browserify',['lint'], function (callback) {
       // Add file extentions to make optional in your requires
       extensions: config.extensions,
       // Enable source maps!
-      debug: config.debug
+      debug: bundleConfig.debug,
+      bundleExternal: bundleConfig.bundleExternal,
+      builtins:bundleConfig.builtins,
+      commondir:bundleConfig.commondir,
+      insertGlobals: bundleConfig.insertGlobals,
+      // insertGlobalsVars: bundleConfig.insertGlobalVars,
+      standalone: bundleConfig.standalone,
     });
 
 
@@ -71,12 +78,10 @@ gulp.task('browserify',['lint'], function (callback) {
         .on('end', reportFinished);
 
       if(changedFile){
-        gutil.log("coming here", changedFile);
-
         var lintStream = gulp.src(changedFile)
           .pipe(plumber())
           // .pipe(jscs())
-          .pipe(jshint({linter:jsxhinter.JSHINT}))
+          .pipe(jshint({linter:jsxhinter.JSHINT, esnext:true}))
           .on('error', handleErrors)
           .pipe(jshint.reporter(stylish)); // Console output
 
@@ -86,12 +91,8 @@ gulp.task('browserify',['lint'], function (callback) {
       return compileStream;
     };
 
-    // if (global.isWatching) {
-      // Wrap with watchify and rebundle on changes
     bundler = watchify(bundler, watchify.args);
-    // Rebundle on update
     bundler.on('update', bundle);
-    // }
 
     var reportFinished = function() {
       // Log when bundling completes
@@ -106,7 +107,6 @@ gulp.task('browserify',['lint'], function (callback) {
         }
       }
     };
-
 
     return bundle();
   };
