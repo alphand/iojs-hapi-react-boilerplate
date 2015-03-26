@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/client/main.jsx","/src/client")
 
-},{"./router.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/router.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js":[function(require,module,exports){
+},{"./router.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/router.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -29,7 +29,7 @@ function Cancellation() {}
 module.exports = Cancellation;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/Cancellation.js","/node_modules/react-router/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -65,7 +65,7 @@ var Configuration = {
 module.exports = Configuration;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/Configuration.js","/node_modules/react-router/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -99,7 +99,7 @@ var History = {
 module.exports = History;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/History.js","/node_modules/react-router/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Match.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Match.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -182,7 +182,7 @@ var Match = (function () {
 module.exports = Match;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/Match.js","/node_modules/react-router/lib")
 
-},{"./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Navigation.js":[function(require,module,exports){
+},{"./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Navigation.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -260,7 +260,7 @@ var Navigation = {
 module.exports = Navigation;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/Navigation.js","/node_modules/react-router/lib")
 
-},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/NavigationContext.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/NavigationContext.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -294,7 +294,7 @@ var NavigationContext = {
 module.exports = NavigationContext;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/NavigationContext.js","/node_modules/react-router/lib")
 
-},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -451,7 +451,7 @@ var PathUtils = {
 module.exports = PathUtils;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/PathUtils.js","/node_modules/react-router/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","qs":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/index.js","qs/lib/utils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","qs":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/index.js","qs/lib/utils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -474,7 +474,7 @@ var PropTypes = assign({
 module.exports = PropTypes;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/PropTypes.js","/node_modules/react-router/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Redirect.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Redirect.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -490,7 +490,7 @@ function Redirect(to, params, query) {
 module.exports = Redirect;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/Redirect.js","/node_modules/react-router/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -713,7 +713,7 @@ var Route = (function () {
 module.exports = Route;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/Route.js","/node_modules/react-router/lib")
 
-},{"./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/RouteHandlerMixin.js":[function(require,module,exports){
+},{"./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/RouteHandlerMixin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -771,7 +771,7 @@ var RouteHandlerMixin = {
 module.exports = RouteHandlerMixin;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/RouteHandlerMixin.js","/node_modules/react-router/lib")
 
-},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/ScrollHistory.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/ScrollHistory.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -850,7 +850,7 @@ var ScrollHistory = {
 module.exports = ScrollHistory;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/ScrollHistory.js","/node_modules/react-router/lib")
 
-},{"./getWindowScrollPosition":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/getWindowScrollPosition.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/State.js":[function(require,module,exports){
+},{"./getWindowScrollPosition":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/getWindowScrollPosition.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/State.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -933,7 +933,7 @@ var State = {
 module.exports = State;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/State.js","/node_modules/react-router/lib")
 
-},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/StateContext.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/StateContext.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1033,7 +1033,7 @@ var StateContext = {
 module.exports = StateContext;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/StateContext.js","/node_modules/react-router/lib")
 
-},{"./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Transition.js":[function(require,module,exports){
+},{"./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Transition.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1112,7 +1112,7 @@ Transition.to = function (transition, routes, params, query, callback) {
 module.exports = Transition;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/Transition.js","/node_modules/react-router/lib")
 
-},{"./Cancellation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js","./Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Redirect.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js":[function(require,module,exports){
+},{"./Cancellation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js","./Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Redirect.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1141,7 +1141,7 @@ var LocationActions = {
 module.exports = LocationActions;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/actions/LocationActions.js","/node_modules/react-router/lib/actions")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1174,7 +1174,7 @@ var ImitateBrowserBehavior = {
 module.exports = ImitateBrowserBehavior;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","/node_modules/react-router/lib/behaviors")
 
-},{"../actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js":[function(require,module,exports){
+},{"../actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1193,7 +1193,7 @@ var ScrollToTopBehavior = {
 module.exports = ScrollToTopBehavior;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js","/node_modules/react-router/lib/behaviors")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/DefaultRoute.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/DefaultRoute.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1225,7 +1225,7 @@ var DefaultRoute = React.createClass({
 module.exports = DefaultRoute;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/components/DefaultRoute.js","/node_modules/react-router/lib/components")
 
-},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Link.js":[function(require,module,exports){
+},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Link.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1341,7 +1341,7 @@ var Link = React.createClass({
 module.exports = Link;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/components/Link.js","/node_modules/react-router/lib/components")
 
-},{"../Navigation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Navigation.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","../Route":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","../State":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/State.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","react/lib/cx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/cx.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/NotFoundRoute.js":[function(require,module,exports){
+},{"../Navigation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Navigation.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","../Route":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","../State":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/State.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","react/lib/cx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/cx.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/NotFoundRoute.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1374,7 +1374,7 @@ var NotFoundRoute = React.createClass({
 module.exports = NotFoundRoute;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/components/NotFoundRoute.js","/node_modules/react-router/lib/components")
 
-},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Redirect.js":[function(require,module,exports){
+},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Redirect.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1404,7 +1404,7 @@ var Redirect = React.createClass({
 module.exports = Redirect;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/components/Redirect.js","/node_modules/react-router/lib/components")
 
-},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Route.js":[function(require,module,exports){
+},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Route.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1476,7 +1476,7 @@ var Route = React.createClass({
 module.exports = Route;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/components/Route.js","/node_modules/react-router/lib/components")
 
-},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","./RouteHandler":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/RouteHandler.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/RouteHandler.js":[function(require,module,exports){
+},{"../Configuration":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Configuration.js","../PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","./RouteHandler":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/RouteHandler.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/RouteHandler.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1502,7 +1502,7 @@ var RouteHandler = React.createClass({
 module.exports = RouteHandler;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/components/RouteHandler.js","/node_modules/react-router/lib/components")
 
-},{"../RouteHandlerMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/RouteHandlerMixin.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRouter.js":[function(require,module,exports){
+},{"../RouteHandlerMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/RouteHandlerMixin.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/createRouter.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -1962,7 +1962,7 @@ function createRouter(options) {
 module.exports = createRouter;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/createRouter.js","/node_modules/react-router/lib")
 
-},{"./Cancellation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js","./History":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","./Match":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Match.js","./NavigationContext":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/NavigationContext.js","./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","./Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Redirect.js","./Route":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","./ScrollHistory":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/ScrollHistory.js","./StateContext":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/StateContext.js","./Transition":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Transition.js","./actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js","./behaviors/ImitateBrowserBehavior":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","./createRoutesFromReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRoutesFromReactChildren.js","./isReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/isReactChildren.js","./locations/HashLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HashLocation.js","./locations/HistoryLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/StaticLocation.js","./supportsHistory":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/supportsHistory.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRoutesFromReactChildren.js":[function(require,module,exports){
+},{"./Cancellation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Cancellation.js","./History":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","./Match":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Match.js","./NavigationContext":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/NavigationContext.js","./PathUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PathUtils.js","./PropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/PropTypes.js","./Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Redirect.js","./Route":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","./ScrollHistory":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/ScrollHistory.js","./StateContext":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/StateContext.js","./Transition":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Transition.js","./actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js","./behaviors/ImitateBrowserBehavior":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","./createRoutesFromReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/createRoutesFromReactChildren.js","./isReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/isReactChildren.js","./locations/HashLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HashLocation.js","./locations/HistoryLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/StaticLocation.js","./supportsHistory":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/supportsHistory.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/createRoutesFromReactChildren.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -2048,7 +2048,7 @@ function createRoutesFromReactChildren(children) {
 module.exports = createRoutesFromReactChildren;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/createRoutesFromReactChildren.js","/node_modules/react-router/lib")
 
-},{"./Route":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","./components/DefaultRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/DefaultRoute.js","./components/NotFoundRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/NotFoundRoute.js","./components/Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Redirect.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/getWindowScrollPosition.js":[function(require,module,exports){
+},{"./Route":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","./components/DefaultRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/DefaultRoute.js","./components/NotFoundRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/NotFoundRoute.js","./components/Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Redirect.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js","react/lib/Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","react/lib/warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/getWindowScrollPosition.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -2070,7 +2070,7 @@ function getWindowScrollPosition() {
 module.exports = getWindowScrollPosition;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/getWindowScrollPosition.js","/node_modules/react-router/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -2103,7 +2103,7 @@ exports.create = require("./createRouter");
 exports.run = require("./runRouter");
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/index.js","/node_modules/react-router/lib")
 
-},{"./History":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","./Navigation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Navigation.js","./Route":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","./RouteHandlerMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/RouteHandlerMixin.js","./State":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/State.js","./behaviors/ImitateBrowserBehavior":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","./behaviors/ScrollToTopBehavior":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js","./components/DefaultRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/DefaultRoute.js","./components/Link":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Link.js","./components/NotFoundRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/NotFoundRoute.js","./components/Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Redirect.js","./components/Route":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Route.js","./components/RouteHandler":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/components/RouteHandler.js","./createRouter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRouter.js","./createRoutesFromReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRoutesFromReactChildren.js","./locations/HashLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HashLocation.js","./locations/HistoryLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/StaticLocation.js","./runRouter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/runRouter.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/isReactChildren.js":[function(require,module,exports){
+},{"./History":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","./Navigation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Navigation.js","./Route":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/Route.js","./RouteHandlerMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/RouteHandlerMixin.js","./State":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/State.js","./behaviors/ImitateBrowserBehavior":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","./behaviors/ScrollToTopBehavior":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js","./components/DefaultRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/DefaultRoute.js","./components/Link":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Link.js","./components/NotFoundRoute":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/NotFoundRoute.js","./components/Redirect":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Redirect.js","./components/Route":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/Route.js","./components/RouteHandler":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/components/RouteHandler.js","./createRouter":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/createRouter.js","./createRoutesFromReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/createRoutesFromReactChildren.js","./locations/HashLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HashLocation.js","./locations/HistoryLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/StaticLocation.js","./runRouter":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/runRouter.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/isReactChildren.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -2120,7 +2120,7 @@ function isReactChildren(object) {
 module.exports = isReactChildren;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/isReactChildren.js","/node_modules/react-router/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HashLocation.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HashLocation.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -2242,7 +2242,7 @@ var HashLocation = {
 module.exports = HashLocation;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/locations/HashLocation.js","/node_modules/react-router/lib/locations")
 
-},{"../History":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js":[function(require,module,exports){
+},{"../History":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -2338,7 +2338,7 @@ var HistoryLocation = {
 module.exports = HistoryLocation;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/locations/HistoryLocation.js","/node_modules/react-router/lib/locations")
 
-},{"../History":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/RefreshLocation.js":[function(require,module,exports){
+},{"../History":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/actions/LocationActions.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/RefreshLocation.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -2373,7 +2373,7 @@ var RefreshLocation = {
 module.exports = RefreshLocation;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/locations/RefreshLocation.js","/node_modules/react-router/lib/locations")
 
-},{"../History":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","./HistoryLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/StaticLocation.js":[function(require,module,exports){
+},{"../History":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/History.js","./HistoryLocation":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/HistoryLocation.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/locations/StaticLocation.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -2429,7 +2429,7 @@ StaticLocation.prototype.pop = throwCannotModify;
 module.exports = StaticLocation;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/locations/StaticLocation.js","/node_modules/react-router/lib/locations")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/runRouter.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react/lib/invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/runRouter.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -2483,7 +2483,7 @@ function runRouter(routes, location, callback) {
 module.exports = runRouter;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/runRouter.js","/node_modules/react-router/lib")
 
-},{"./createRouter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/createRouter.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/supportsHistory.js":[function(require,module,exports){
+},{"./createRouter":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/createRouter.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/supportsHistory.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -2503,13 +2503,13 @@ function supportsHistory() {
 module.exports = supportsHistory;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/lib/supportsHistory.js","/node_modules/react-router/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/index.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/index.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 module.exports = require('./lib/');
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/node_modules/qs/index.js","/node_modules/react-router/node_modules/qs")
 
-},{"./lib/":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/index.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/index.js":[function(require,module,exports){
+},{"./lib/":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/index.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/index.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 // Load modules
 
@@ -2529,7 +2529,7 @@ module.exports = {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/node_modules/qs/lib/index.js","/node_modules/react-router/node_modules/qs/lib")
 
-},{"./parse":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/parse.js","./stringify":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/stringify.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/parse.js":[function(require,module,exports){
+},{"./parse":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/parse.js","./stringify":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/stringify.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/parse.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 // Load modules
 
@@ -2691,7 +2691,7 @@ module.exports = function (str, options) {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/node_modules/qs/lib/parse.js","/node_modules/react-router/node_modules/qs/lib")
 
-},{"./utils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/stringify.js":[function(require,module,exports){
+},{"./utils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/stringify.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 // Load modules
 
@@ -2773,7 +2773,7 @@ module.exports = function (obj, options) {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/node_modules/qs/lib/stringify.js","/node_modules/react-router/node_modules/qs/lib")
 
-},{"./utils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js":[function(require,module,exports){
+},{"./utils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/node_modules/qs/lib/utils.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 // Load modules
 
@@ -2910,7 +2910,7 @@ exports.isBuffer = function (obj) {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react-router/node_modules/qs/lib/utils.js","/node_modules/react-router/node_modules/qs/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -2940,7 +2940,7 @@ module.exports = AutoFocusMixin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/AutoFocusMixin.js","/node_modules/react/lib")
 
-},{"./focusNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/focusNode.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
+},{"./focusNode":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/focusNode.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013 Facebook, Inc.
@@ -3165,7 +3165,7 @@ module.exports = BeforeInputEventPlugin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/BeforeInputEventPlugin.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3287,7 +3287,7 @@ module.exports = CSSProperty;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/CSSProperty.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3423,7 +3423,7 @@ module.exports = CSSPropertyOperations;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/CSSPropertyOperations.js","/node_modules/react/lib")
 
-},{"./CSSProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3524,7 +3524,7 @@ module.exports = CallbackQueue;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/CallbackQueue.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3909,7 +3909,7 @@ module.exports = ChangeEventPlugin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ChangeEventPlugin.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3937,7 +3937,7 @@ module.exports = ClientReactRootIndex;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ClientReactRootIndex.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4199,7 +4199,7 @@ module.exports = CompositionEventPlugin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/CompositionEventPlugin.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4375,7 +4375,7 @@ module.exports = DOMChildrenOperations;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/DOMChildrenOperations.js","/node_modules/react/lib")
 
-},{"./Danger":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
+},{"./Danger":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4675,7 +4675,7 @@ module.exports = DOMProperty;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/DOMProperty.js","/node_modules/react/lib")
 
-},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4873,7 +4873,7 @@ module.exports = DOMPropertyOperations;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/DOMPropertyOperations.js","/node_modules/react/lib")
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Danger.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Danger.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5060,7 +5060,7 @@ module.exports = Danger;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/Danger.js","/node_modules/react/lib")
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5103,7 +5103,7 @@ module.exports = DefaultEventPluginOrder;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/DefaultEventPluginOrder.js","/node_modules/react/lib")
 
-},{"./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
+},{"./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5246,7 +5246,7 @@ module.exports = EnterLeaveEventPlugin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/EnterLeaveEventPlugin.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5321,7 +5321,7 @@ module.exports = EventConstants;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/EventConstants.js","/node_modules/react/lib")
 
-},{"./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventListener.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventListener.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014 Facebook, Inc.
@@ -5412,7 +5412,7 @@ module.exports = EventListener;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/EventListener.js","/node_modules/react/lib")
 
-},{"./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5689,7 +5689,7 @@ module.exports = EventPluginHub;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/EventPluginHub.js","/node_modules/react/lib")
 
-},{"./EventPluginRegistry":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
+},{"./EventPluginRegistry":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5970,7 +5970,7 @@ module.exports = EventPluginRegistry;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/EventPluginRegistry.js","/node_modules/react/lib")
 
-},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6192,7 +6192,7 @@ module.exports = EventPluginUtils;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/EventPluginUtils.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6335,7 +6335,7 @@ module.exports = EventPropagators;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/EventPropagators.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6383,7 +6383,7 @@ module.exports = ExecutionEnvironment;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ExecutionEnvironment.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6578,7 +6578,7 @@ module.exports = HTMLDOMPropertyConfig;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/HTMLDOMPropertyConfig.js","/node_modules/react/lib")
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6735,7 +6735,7 @@ module.exports = LinkedValueUtils;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/LinkedValueUtils.js","/node_modules/react/lib")
 
-},{"./ReactPropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
+},{"./ReactPropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -6786,7 +6786,7 @@ module.exports = LocalEventTrapMixin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/LocalEventTrapMixin.js","/node_modules/react/lib")
 
-},{"./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6847,7 +6847,7 @@ module.exports = MobileSafariClickEventPlugin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/MobileSafariClickEventPlugin.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -6897,7 +6897,7 @@ module.exports = assign;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/Object.assign.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7014,7 +7014,7 @@ module.exports = PooledClass;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/PooledClass.js","/node_modules/react/lib")
 
-},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/React.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/React.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7203,7 +7203,7 @@ module.exports = React;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/React.js","/node_modules/react/lib")
 
-},{"./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js","./onlyChild":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/onlyChild.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js","./onlyChild":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/onlyChild.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7247,7 +7247,7 @@ module.exports = ReactBrowserComponentMixin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactBrowserComponentMixin.js","/node_modules/react/lib")
 
-},{"./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
+},{"./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7605,7 +7605,7 @@ module.exports = ReactBrowserEventEmitter;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactBrowserEventEmitter.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7756,7 +7756,7 @@ module.exports = ReactChildren;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactChildren.js","/node_modules/react/lib")
 
-},{"./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
+},{"./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8200,7 +8200,7 @@ module.exports = ReactComponent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactComponent.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8323,7 +8323,7 @@ module.exports = ReactComponentBrowserEnvironment;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactComponentBrowserEnvironment.js","/node_modules/react/lib")
 
-},{"./ReactDOMIDOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/setInnerHTML.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
+},{"./ReactDOMIDOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/setInnerHTML.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9764,7 +9764,7 @@ module.exports = ReactCompositeComponent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactCompositeComponent.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./mapObject":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./mapObject":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9829,7 +9829,7 @@ module.exports = ReactContext;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactContext.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9866,7 +9866,7 @@ module.exports = ReactCurrentOwner;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactCurrentOwner.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10050,7 +10050,7 @@ module.exports = ReactDOM;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOM.js","/node_modules/react/lib")
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/mapObject.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/mapObject.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10118,7 +10118,7 @@ module.exports = ReactDOMButton;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOMButton.js","/node_modules/react/lib")
 
-},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10606,7 +10606,7 @@ module.exports = ReactDOMComponent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOMComponent.js","/node_modules/react/lib")
 
-},{"./CSSPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10659,7 +10659,7 @@ module.exports = ReactDOMForm;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOMForm.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10846,7 +10846,7 @@ module.exports = ReactDOMIDOperations;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOMIDOperations.js","/node_modules/react/lib")
 
-},{"./CSSPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/setInnerHTML.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/setInnerHTML.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10897,7 +10897,7 @@ module.exports = ReactDOMImg;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOMImg.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11076,7 +11076,7 @@ module.exports = ReactDOMInput;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOMInput.js","/node_modules/react/lib")
 
-},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11130,7 +11130,7 @@ module.exports = ReactDOMOption;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOMOption.js","/node_modules/react/lib")
 
-},{"./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11317,7 +11317,7 @@ module.exports = ReactDOMSelect;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOMSelect.js","/node_modules/react/lib")
 
-},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11529,7 +11529,7 @@ module.exports = ReactDOMSelection;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOMSelection.js","/node_modules/react/lib")
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11671,7 +11671,7 @@ module.exports = ReactDOMTextarea;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDOMTextarea.js","/node_modules/react/lib")
 
-},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11747,7 +11747,7 @@ module.exports = ReactDefaultBatchingStrategy;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDefaultBatchingStrategy.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11877,7 +11877,7 @@ module.exports = {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDefaultInjection.js","/node_modules/react/lib")
 
-},{"./BeforeInputEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
+},{"./BeforeInputEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12140,7 +12140,7 @@ module.exports = ReactDefaultPerf;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDefaultPerf.js","/node_modules/react/lib")
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/performanceNow.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/performanceNow.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12349,7 +12349,7 @@ module.exports = ReactDefaultPerfAnalysis;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactDefaultPerfAnalysis.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -12596,7 +12596,7 @@ module.exports = ReactElement;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactElement.js","/node_modules/react/lib")
 
-},{"./ReactContext":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
+},{"./ReactContext":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -12879,7 +12879,7 @@ module.exports = ReactElementValidator;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactElementValidator.js","/node_modules/react/lib")
 
-},{"./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -12957,7 +12957,7 @@ module.exports = ReactEmptyComponent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactEmptyComponent.js","/node_modules/react/lib")
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12992,7 +12992,7 @@ module.exports = ReactErrorUtils;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactErrorUtils.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13045,7 +13045,7 @@ module.exports = ReactEventEmitterMixin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactEventEmitterMixin.js","/node_modules/react/lib")
 
-},{"./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
+},{"./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13232,7 +13232,7 @@ module.exports = ReactEventListener;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactEventListener.js","/node_modules/react/lib")
 
-},{"./EventListener":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getUnboundedScrollPosition.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
+},{"./EventListener":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getUnboundedScrollPosition.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13275,7 +13275,7 @@ module.exports = ReactInjection;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactInjection.js","/node_modules/react/lib")
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13414,7 +13414,7 @@ module.exports = ReactInputSelection;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactInputSelection.js","/node_modules/react/lib")
 
-},{"./ReactDOMSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/containsNode.js","./focusNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getActiveElement.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
+},{"./ReactDOMSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/containsNode.js","./focusNode":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getActiveElement.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13750,7 +13750,7 @@ module.exports = ReactInstanceHandles;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactInstanceHandles.js","/node_modules/react/lib")
 
-},{"./ReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
+},{"./ReactRootIndex":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -13998,7 +13998,7 @@ module.exports = ReactLegacyElementFactory;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactLegacyElement.js","/node_modules/react/lib")
 
-},{"./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./monitorCodeUse":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14049,7 +14049,7 @@ module.exports = ReactMarkupChecksum;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactMarkupChecksum.js","/node_modules/react/lib")
 
-},{"./adler32":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/adler32.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
+},{"./adler32":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/adler32.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14748,7 +14748,7 @@ module.exports = ReactMount;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactMount.js","/node_modules/react/lib")
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./containsNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/containsNode.js","./deprecated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./containsNode":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/containsNode.js","./deprecated":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15179,7 +15179,7 @@ module.exports = ReactMultiChild;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactMultiChild.js","/node_modules/react/lib")
 
-},{"./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
+},{"./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15215,7 +15215,7 @@ module.exports = ReactMultiChildUpdateTypes;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactMultiChildUpdateTypes.js","/node_modules/react/lib")
 
-},{"./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -15289,7 +15289,7 @@ module.exports = ReactNativeComponent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactNativeComponent.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15446,7 +15446,7 @@ module.exports = ReactOwner;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactOwner.js","/node_modules/react/lib")
 
-},{"./emptyObject":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyObject.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
+},{"./emptyObject":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyObject.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15531,7 +15531,7 @@ module.exports = ReactPerf;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactPerf.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15699,7 +15699,7 @@ module.exports = ReactPropTransferer;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactPropTransferer.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./joinClasses":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/joinClasses.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./joinClasses":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/joinClasses.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15728,7 +15728,7 @@ module.exports = ReactPropTypeLocationNames;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactPropTypeLocationNames.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15755,7 +15755,7 @@ module.exports = ReactPropTypeLocations;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactPropTypeLocations.js","/node_modules/react/lib")
 
-},{"./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16112,7 +16112,7 @@ module.exports = ReactPropTypes;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactPropTypes.js","/node_modules/react/lib")
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16171,7 +16171,7 @@ module.exports = ReactPutListenerQueue;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactPutListenerQueue.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16350,7 +16350,7 @@ module.exports = ReactReconcileTransaction;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactReconcileTransaction.js","/node_modules/react/lib")
 
-},{"./CallbackQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16384,7 +16384,7 @@ module.exports = ReactRootIndex;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactRootIndex.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16465,7 +16465,7 @@ module.exports = {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactServerRendering.js","/node_modules/react/lib")
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -16581,7 +16581,7 @@ module.exports = ReactServerRenderingTransaction;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactServerRenderingTransaction.js","/node_modules/react/lib")
 
-},{"./CallbackQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16690,7 +16690,7 @@ module.exports = ReactTextComponentFactory;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactTextComponent.js","/node_modules/react/lib")
 
-},{"./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactComponent.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16981,7 +16981,7 @@ module.exports = ReactUpdates;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ReactUpdates.js","/node_modules/react/lib")
 
-},{"./CallbackQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactPerf.js","./Transaction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17076,7 +17076,7 @@ module.exports = SVGDOMPropertyConfig;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SVGDOMPropertyConfig.js","/node_modules/react/lib")
 
-},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/DOMProperty.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17274,7 +17274,7 @@ module.exports = SelectEventPlugin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SelectEventPlugin.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shallowEqual.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/shallowEqual.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17308,7 +17308,7 @@ module.exports = ServerReactRootIndex;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ServerReactRootIndex.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17737,7 +17737,7 @@ module.exports = SimpleEventPlugin;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SimpleEventPlugin.js","/node_modules/react/lib")
 
-},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","./keyOf":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17786,7 +17786,7 @@ module.exports = SyntheticClipboardEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticClipboardEvent.js","/node_modules/react/lib")
 
-},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17835,7 +17835,7 @@ module.exports = SyntheticCompositionEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticCompositionEvent.js","/node_modules/react/lib")
 
-},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17877,7 +17877,7 @@ module.exports = SyntheticDragEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticDragEvent.js","/node_modules/react/lib")
 
-},{"./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18038,7 +18038,7 @@ module.exports = SyntheticEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticEvent.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18080,7 +18080,7 @@ module.exports = SyntheticFocusEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticFocusEvent.js","/node_modules/react/lib")
 
-},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013 Facebook, Inc.
@@ -18130,7 +18130,7 @@ module.exports = SyntheticInputEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticInputEvent.js","/node_modules/react/lib")
 
-},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18220,7 +18220,7 @@ module.exports = SyntheticKeyboardEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticKeyboardEvent.js","/node_modules/react/lib")
 
-},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18306,7 +18306,7 @@ module.exports = SyntheticMouseEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticMouseEvent.js","/node_modules/react/lib")
 
-},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18357,7 +18357,7 @@ module.exports = SyntheticTouchEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticTouchEvent.js","/node_modules/react/lib")
 
-},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18422,7 +18422,7 @@ module.exports = SyntheticUIEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticUIEvent.js","/node_modules/react/lib")
 
-},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18486,7 +18486,7 @@ module.exports = SyntheticWheelEvent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/SyntheticWheelEvent.js","/node_modules/react/lib")
 
-},{"./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/SyntheticMouseEvent.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Transaction.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18728,7 +18728,7 @@ module.exports = Transaction;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/Transaction.js","/node_modules/react/lib")
 
-},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18763,7 +18763,7 @@ module.exports = ViewportMetrics;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/ViewportMetrics.js","/node_modules/react/lib")
 
-},{"./getUnboundedScrollPosition":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getUnboundedScrollPosition.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
+},{"./getUnboundedScrollPosition":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getUnboundedScrollPosition.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -18830,7 +18830,7 @@ module.exports = accumulateInto;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/accumulateInto.js","/node_modules/react/lib")
 
-},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/adler32.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/adler32.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18867,7 +18867,7 @@ module.exports = adler32;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/adler32.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/camelize.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/camelize.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18902,7 +18902,7 @@ module.exports = camelize;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/camelize.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -18947,7 +18947,7 @@ module.exports = camelizeStyleName;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/camelizeStyleName.js","/node_modules/react/lib")
 
-},{"./camelize":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/camelize.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/containsNode.js":[function(require,module,exports){
+},{"./camelize":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/camelize.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/containsNode.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18994,7 +18994,7 @@ module.exports = containsNode;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/containsNode.js","/node_modules/react/lib")
 
-},{"./isTextNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isTextNode.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
+},{"./isTextNode":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isTextNode.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19083,7 +19083,7 @@ module.exports = createArrayFrom;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/createArrayFrom.js","/node_modules/react/lib")
 
-},{"./toArray":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/toArray.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
+},{"./toArray":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/toArray.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19145,7 +19145,7 @@ module.exports = createFullPageComponent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/createFullPageComponent.js","/node_modules/react/lib")
 
-},{"./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
+},{"./ReactCompositeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19236,7 +19236,7 @@ module.exports = createNodesFromMarkup;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/createNodesFromMarkup.js","/node_modules/react/lib")
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/cx.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/cx.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19278,7 +19278,7 @@ module.exports = cx;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/cx.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19339,7 +19339,7 @@ module.exports = dangerousStyleValue;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/dangerousStyleValue.js","/node_modules/react/lib")
 
-},{"./CSSProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/CSSProperty.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/CSSProperty.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/deprecated.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19391,7 +19391,7 @@ module.exports = deprecated;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/deprecated.js","/node_modules/react/lib")
 
-},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/Object.assign.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19428,7 +19428,7 @@ module.exports = emptyFunction;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/emptyFunction.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19453,7 +19453,7 @@ module.exports = emptyObject;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/emptyObject.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19497,7 +19497,7 @@ module.exports = escapeTextForBrowser;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/escapeTextForBrowser.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19567,7 +19567,7 @@ module.exports = flattenChildren;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/flattenChildren.js","/node_modules/react/lib")
 
-},{"./ReactTextComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/focusNode.js":[function(require,module,exports){
+},{"./ReactTextComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/focusNode.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -19599,7 +19599,7 @@ module.exports = focusNode;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/focusNode.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19633,7 +19633,7 @@ module.exports = forEachAccumulated;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/forEachAccumulated.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19665,7 +19665,7 @@ module.exports = getActiveElement;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/getActiveElement.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19720,7 +19720,7 @@ module.exports = getEventCharCode;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/getEventCharCode.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19828,7 +19828,7 @@ module.exports = getEventKey;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/getEventKey.js","/node_modules/react/lib")
 
-},{"./getEventCharCode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
+},{"./getEventCharCode":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventCharCode.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013 Facebook, Inc.
@@ -19878,7 +19878,7 @@ module.exports = getEventModifierState;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/getEventModifierState.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19912,7 +19912,7 @@ module.exports = getEventTarget;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/getEventTarget.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20030,7 +20030,7 @@ module.exports = getMarkupWrap;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/getMarkupWrap.js","/node_modules/react/lib")
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20108,7 +20108,7 @@ module.exports = getNodeForCharacterOffset;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/getNodeForCharacterOffset.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20146,7 +20146,7 @@ module.exports = getReactRootElementInContainer;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/getReactRootElementInContainer.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20186,7 +20186,7 @@ module.exports = getTextContentAccessor;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/getTextContentAccessor.js","/node_modules/react/lib")
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20229,7 +20229,7 @@ module.exports = getUnboundedScrollPosition;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/getUnboundedScrollPosition.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20265,7 +20265,7 @@ module.exports = hyphenate;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/hyphenate.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20309,7 +20309,7 @@ module.exports = hyphenateStyleName;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/hyphenateStyleName.js","/node_modules/react/lib")
 
-},{"./hyphenate":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/hyphenate.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
+},{"./hyphenate":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/hyphenate.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20424,7 +20424,7 @@ module.exports = instantiateReactComponent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/instantiateReactComponent.js","/node_modules/react/lib")
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactNativeComponent.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactNativeComponent.js","./warning":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20482,7 +20482,7 @@ module.exports = invariant;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/invariant.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20550,7 +20550,7 @@ module.exports = isEventSupported;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/isEventSupported.js","/node_modules/react/lib")
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isNode.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isNode.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20581,7 +20581,7 @@ module.exports = isNode;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/isNode.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20628,7 +20628,7 @@ module.exports = isTextInputElement;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/isTextInputElement.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20656,7 +20656,7 @@ module.exports = isTextNode;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/isTextNode.js","/node_modules/react/lib")
 
-},{"./isNode":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/isNode.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
+},{"./isNode":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/isNode.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20700,7 +20700,7 @@ module.exports = joinClasses;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/joinClasses.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20756,7 +20756,7 @@ module.exports = keyMirror;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/keyMirror.js","/node_modules/react/lib")
 
-},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/keyOf.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20795,7 +20795,7 @@ module.exports = keyOf;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/keyOf.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/mapObject.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/mapObject.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20851,7 +20851,7 @@ module.exports = mapObject;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/mapObject.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20888,7 +20888,7 @@ module.exports = memoizeStringOnly;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/memoizeStringOnly.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -20923,7 +20923,7 @@ module.exports = monitorCodeUse;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/monitorCodeUse.js","/node_modules/react/lib")
 
-},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20964,7 +20964,7 @@ module.exports = onlyChild;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/onlyChild.js","/node_modules/react/lib")
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/performance.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/performance.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20995,7 +20995,7 @@ module.exports = performance || {};
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/performance.js","/node_modules/react/lib")
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -21026,7 +21026,7 @@ module.exports = performanceNow;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/performanceNow.js","/node_modules/react/lib")
 
-},{"./performance":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/performance.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
+},{"./performance":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/performance.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -21107,7 +21107,7 @@ module.exports = setInnerHTML;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/setInnerHTML.js","/node_modules/react/lib")
 
-},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ExecutionEnvironment.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -21154,7 +21154,7 @@ module.exports = shallowEqual;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/shallowEqual.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -21195,7 +21195,7 @@ module.exports = shouldUpdateReactComponent;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/shouldUpdateReactComponent.js","/node_modules/react/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/toArray.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/toArray.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -21268,7 +21268,7 @@ module.exports = toArray;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/toArray.js","/node_modules/react/lib")
 
-},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
+},{"./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -21452,7 +21452,7 @@ module.exports = traverseAllChildren;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/traverseAllChildren.js","/node_modules/react/lib")
 
-},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/warning.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/invariant.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/warning.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -21498,13 +21498,13 @@ module.exports = warning;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/lib/warning.js","/node_modules/react/lib")
 
-},{"./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/emptyFunction.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 module.exports = require('./lib/React');
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/react.js","/node_modules/react")
 
-},{"./lib/React":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/lib/React.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/app.jsx":[function(require,module,exports){
+},{"./lib/React":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/lib/React.js","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/app.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -21540,7 +21540,7 @@ module.exports = app;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/client/app.jsx","/src/client")
 
-},{"./components/common/layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/about.jsx":[function(require,module,exports){
+},{"./components/common/layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/about.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -21571,7 +21571,7 @@ module.exports = app;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/client/components/about.jsx","/src/client/components")
 
-},{"./common/layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/footer.jsx":[function(require,module,exports){
+},{"./common/layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/footer.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -21611,7 +21611,7 @@ module.exports = footer;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/client/components/common/footer.jsx","/src/client/components/common")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/layout.jsx":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/layout.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -21676,7 +21676,7 @@ module.exports = layout;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/client/components/common/layout.jsx","/src/client/components/common")
 
-},{"./footer.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/footer.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/notfound.jsx":[function(require,module,exports){
+},{"./footer.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/footer.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/notfound.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -21705,7 +21705,7 @@ module.exports = notfound;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/client/components/common/notfound.jsx","/src/client/components/common")
 
-},{"./layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/router.jsx":[function(require,module,exports){
+},{"./layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/router.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
 
@@ -21735,7 +21735,7 @@ module.exports = routes;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/client/router.jsx","/src/client")
 
-},{"./app.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/app.jsx","./components/about.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/about.jsx","./components/common/notfound.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/notfound.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js":[function(require,module,exports){
+},{"./app.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/app.jsx","./components/about.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/about.jsx","./components/common/notfound.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/notfound.jsx","_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react/react.js","react-router":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/node_modules/react-router/lib/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /*!
  * The buffer module from node.js, for the browser.
@@ -21803,41 +21803,36 @@ Buffer.TYPED_ARRAY_SUPPORT = (function () {
  * By augmenting the instances, we can avoid modifying the `Uint8Array`
  * prototype.
  */
-function Buffer (subject, encoding, noZero) {
-  if (!(this instanceof Buffer))
-    return new Buffer(subject, encoding, noZero)
+function Buffer (subject, encoding) {
+  var self = this
+  if (!(self instanceof Buffer)) return new Buffer(subject, encoding)
 
   var type = typeof subject
-
-  // Find the length
   var length
+
   if (type === 'number') {
     length = +subject
   } else if (type === 'string') {
     length = Buffer.byteLength(subject, encoding)
-  } else if (type === 'object' && subject !== null) { // assume object is array-like
-    if (subject.type === 'Buffer' && isArray(subject.data))
-      subject = subject.data
+  } else if (type === 'object' && subject !== null) {
+    // assume object is array-like
+    if (subject.type === 'Buffer' && isArray(subject.data)) subject = subject.data
     length = +subject.length
   } else {
     throw new TypeError('must start with number, buffer, array or string')
   }
 
-  if (length > kMaxLength)
-    throw new RangeError('Attempt to allocate Buffer larger than maximum ' +
-      'size: 0x' + kMaxLength.toString(16) + ' bytes')
+  if (length > kMaxLength) {
+    throw new RangeError('Attempt to allocate Buffer larger than maximum size: 0x' +
+      kMaxLength.toString(16) + ' bytes')
+  }
 
-  if (length < 0)
-    length = 0
-  else
-    length >>>= 0 // Coerce to uint32.
+  if (length < 0) length = 0
+  else length >>>= 0 // coerce to uint32
 
-  var self = this
   if (Buffer.TYPED_ARRAY_SUPPORT) {
     // Preferred: Return an augmented `Uint8Array` instance for best performance
-    /*eslint-disable consistent-this */
-    self = Buffer._augment(new Uint8Array(length))
-    /*eslint-enable consistent-this */
+    self = Buffer._augment(new Uint8Array(length)) // eslint-disable-line consistent-this
   } else {
     // Fallback: Return THIS instance of Buffer (created by `new`)
     self.length = length
@@ -21851,42 +21846,43 @@ function Buffer (subject, encoding, noZero) {
   } else if (isArrayish(subject)) {
     // Treat array-ish objects as a byte array
     if (Buffer.isBuffer(subject)) {
-      for (i = 0; i < length; i++)
+      for (i = 0; i < length; i++) {
         self[i] = subject.readUInt8(i)
+      }
     } else {
-      for (i = 0; i < length; i++)
+      for (i = 0; i < length; i++) {
         self[i] = ((subject[i] % 256) + 256) % 256
+      }
     }
   } else if (type === 'string') {
     self.write(subject, 0, encoding)
-  } else if (type === 'number' && !Buffer.TYPED_ARRAY_SUPPORT && !noZero) {
+  } else if (type === 'number' && !Buffer.TYPED_ARRAY_SUPPORT) {
     for (i = 0; i < length; i++) {
       self[i] = 0
     }
   }
 
-  if (length > 0 && length <= Buffer.poolSize)
-    self.parent = rootParent
+  if (length > 0 && length <= Buffer.poolSize) self.parent = rootParent
 
   return self
 }
 
-function SlowBuffer (subject, encoding, noZero) {
-  if (!(this instanceof SlowBuffer))
-    return new SlowBuffer(subject, encoding, noZero)
+function SlowBuffer (subject, encoding) {
+  if (!(this instanceof SlowBuffer)) return new SlowBuffer(subject, encoding)
 
-  var buf = new Buffer(subject, encoding, noZero)
+  var buf = new Buffer(subject, encoding)
   delete buf.parent
   return buf
 }
 
-Buffer.isBuffer = function (b) {
+Buffer.isBuffer = function isBuffer (b) {
   return !!(b != null && b._isBuffer)
 }
 
-Buffer.compare = function (a, b) {
-  if (!Buffer.isBuffer(a) || !Buffer.isBuffer(b))
+Buffer.compare = function compare (a, b) {
+  if (!Buffer.isBuffer(a) || !Buffer.isBuffer(b)) {
     throw new TypeError('Arguments must be Buffers')
+  }
 
   if (a === b) return 0
 
@@ -21902,7 +21898,7 @@ Buffer.compare = function (a, b) {
   return 0
 }
 
-Buffer.isEncoding = function (encoding) {
+Buffer.isEncoding = function isEncoding (encoding) {
   switch (String(encoding).toLowerCase()) {
     case 'hex':
     case 'utf8':
@@ -21921,8 +21917,8 @@ Buffer.isEncoding = function (encoding) {
   }
 }
 
-Buffer.concat = function (list, totalLength) {
-  if (!isArray(list)) throw new TypeError('Usage: Buffer.concat(list[, length])')
+Buffer.concat = function concat (list, totalLength) {
+  if (!isArray(list)) throw new TypeError('list argument must be an Array of Buffers.')
 
   if (list.length === 0) {
     return new Buffer(0)
@@ -21948,7 +21944,7 @@ Buffer.concat = function (list, totalLength) {
   return buf
 }
 
-Buffer.byteLength = function (str, encoding) {
+Buffer.byteLength = function byteLength (str, encoding) {
   var ret
   str = str + ''
   switch (encoding || 'utf8') {
@@ -21984,7 +21980,7 @@ Buffer.prototype.length = undefined
 Buffer.prototype.parent = undefined
 
 // toString(encoding, start=0, end=buffer.length)
-Buffer.prototype.toString = function (encoding, start, end) {
+Buffer.prototype.toString = function toString (encoding, start, end) {
   var loweredCase = false
 
   start = start >>> 0
@@ -22020,45 +22016,84 @@ Buffer.prototype.toString = function (encoding, start, end) {
         return utf16leSlice(this, start, end)
 
       default:
-        if (loweredCase)
-          throw new TypeError('Unknown encoding: ' + encoding)
+        if (loweredCase) throw new TypeError('Unknown encoding: ' + encoding)
         encoding = (encoding + '').toLowerCase()
         loweredCase = true
     }
   }
 }
 
-Buffer.prototype.equals = function (b) {
+Buffer.prototype.equals = function equals (b) {
   if (!Buffer.isBuffer(b)) throw new TypeError('Argument must be a Buffer')
   if (this === b) return true
   return Buffer.compare(this, b) === 0
 }
 
-Buffer.prototype.inspect = function () {
+Buffer.prototype.inspect = function inspect () {
   var str = ''
   var max = exports.INSPECT_MAX_BYTES
   if (this.length > 0) {
     str = this.toString('hex', 0, max).match(/.{2}/g).join(' ')
-    if (this.length > max)
-      str += ' ... '
+    if (this.length > max) str += ' ... '
   }
   return '<Buffer ' + str + '>'
 }
 
-Buffer.prototype.compare = function (b) {
+Buffer.prototype.compare = function compare (b) {
   if (!Buffer.isBuffer(b)) throw new TypeError('Argument must be a Buffer')
   if (this === b) return 0
   return Buffer.compare(this, b)
 }
 
+Buffer.prototype.indexOf = function indexOf (val, byteOffset) {
+  if (byteOffset > 0x7fffffff) byteOffset = 0x7fffffff
+  else if (byteOffset < -0x80000000) byteOffset = -0x80000000
+  byteOffset >>= 0
+
+  if (this.length === 0) return -1
+  if (byteOffset >= this.length) return -1
+
+  // Negative offsets start from the end of the buffer
+  if (byteOffset < 0) byteOffset = Math.max(this.length + byteOffset, 0)
+
+  if (typeof val === 'string') {
+    if (val.length === 0) return -1 // special case: looking for empty string always fails
+    return String.prototype.indexOf.call(this, val, byteOffset)
+  }
+  if (Buffer.isBuffer(val)) {
+    return arrayIndexOf(this, val, byteOffset)
+  }
+  if (typeof val === 'number') {
+    if (Buffer.TYPED_ARRAY_SUPPORT && Uint8Array.prototype.indexOf === 'function') {
+      return Uint8Array.prototype.indexOf.call(this, val, byteOffset)
+    }
+    return arrayIndexOf(this, [ val ], byteOffset)
+  }
+
+  function arrayIndexOf (arr, val, byteOffset) {
+    var foundIndex = -1
+    for (var i = 0; byteOffset + i < arr.length; i++) {
+      if (arr[byteOffset + i] === val[foundIndex === -1 ? 0 : i - foundIndex]) {
+        if (foundIndex === -1) foundIndex = i
+        if (i - foundIndex + 1 === val.length) return byteOffset + foundIndex
+      } else {
+        foundIndex = -1
+      }
+    }
+    return -1
+  }
+
+  throw new TypeError('val must be string, number or Buffer')
+}
+
 // `get` will be removed in Node 0.13+
-Buffer.prototype.get = function (offset) {
+Buffer.prototype.get = function get (offset) {
   console.log('.get() is deprecated. Access using array indexes instead.')
   return this.readUInt8(offset)
 }
 
 // `set` will be removed in Node 0.13+
-Buffer.prototype.set = function (v, offset) {
+Buffer.prototype.set = function set (v, offset) {
   console.log('.set() is deprecated. Access using array indexes instead.')
   return this.writeUInt8(v, offset)
 }
@@ -22083,9 +22118,9 @@ function hexWrite (buf, string, offset, length) {
     length = strLen / 2
   }
   for (var i = 0; i < length; i++) {
-    var byte = parseInt(string.substr(i * 2, 2), 16)
-    if (isNaN(byte)) throw new Error('Invalid hex string')
-    buf[offset + i] = byte
+    var parsed = parseInt(string.substr(i * 2, 2), 16)
+    if (isNaN(parsed)) throw new Error('Invalid hex string')
+    buf[offset + i] = parsed
   }
   return i
 }
@@ -22114,7 +22149,7 @@ function utf16leWrite (buf, string, offset, length) {
   return charsWritten
 }
 
-Buffer.prototype.write = function (string, offset, length, encoding) {
+Buffer.prototype.write = function write (string, offset, length, encoding) {
   // Support both (string, offset, length, encoding)
   // and the legacy (string, encoding, offset, length)
   if (isFinite(offset)) {
@@ -22131,8 +22166,9 @@ Buffer.prototype.write = function (string, offset, length, encoding) {
 
   offset = Number(offset) || 0
 
-  if (length < 0 || offset < 0 || offset > this.length)
+  if (length < 0 || offset < 0 || offset > this.length) {
     throw new RangeError('attempt to write outside buffer bounds')
+  }
 
   var remaining = this.length - offset
   if (!length) {
@@ -22175,7 +22211,7 @@ Buffer.prototype.write = function (string, offset, length, encoding) {
   return ret
 }
 
-Buffer.prototype.toJSON = function () {
+Buffer.prototype.toJSON = function toJSON () {
   return {
     type: 'Buffer',
     data: Array.prototype.slice.call(this._arr || this, 0)
@@ -22249,43 +22285,39 @@ function utf16leSlice (buf, start, end) {
   return res
 }
 
-Buffer.prototype.slice = function (start, end) {
+Buffer.prototype.slice = function slice (start, end) {
   var len = this.length
   start = ~~start
   end = end === undefined ? len : ~~end
 
   if (start < 0) {
     start += len
-    if (start < 0)
-      start = 0
+    if (start < 0) start = 0
   } else if (start > len) {
     start = len
   }
 
   if (end < 0) {
     end += len
-    if (end < 0)
-      end = 0
+    if (end < 0) end = 0
   } else if (end > len) {
     end = len
   }
 
-  if (end < start)
-    end = start
+  if (end < start) end = start
 
   var newBuf
   if (Buffer.TYPED_ARRAY_SUPPORT) {
     newBuf = Buffer._augment(this.subarray(start, end))
   } else {
     var sliceLen = end - start
-    newBuf = new Buffer(sliceLen, undefined, true)
+    newBuf = new Buffer(sliceLen, undefined)
     for (var i = 0; i < sliceLen; i++) {
       newBuf[i] = this[i + start]
     }
   }
 
-  if (newBuf.length)
-    newBuf.parent = this.parent || this
+  if (newBuf.length) newBuf.parent = this.parent || this
 
   return newBuf
 }
@@ -22294,62 +22326,58 @@ Buffer.prototype.slice = function (start, end) {
  * Need to make sure that buffer isn't trying to write out of bounds.
  */
 function checkOffset (offset, ext, length) {
-  if ((offset % 1) !== 0 || offset < 0)
-    throw new RangeError('offset is not uint')
-  if (offset + ext > length)
-    throw new RangeError('Trying to access beyond buffer length')
+  if ((offset % 1) !== 0 || offset < 0) throw new RangeError('offset is not uint')
+  if (offset + ext > length) throw new RangeError('Trying to access beyond buffer length')
 }
 
-Buffer.prototype.readUIntLE = function (offset, byteLength, noAssert) {
+Buffer.prototype.readUIntLE = function readUIntLE (offset, byteLength, noAssert) {
   offset = offset >>> 0
   byteLength = byteLength >>> 0
-  if (!noAssert)
-    checkOffset(offset, byteLength, this.length)
+  if (!noAssert) checkOffset(offset, byteLength, this.length)
 
   var val = this[offset]
   var mul = 1
   var i = 0
-  while (++i < byteLength && (mul *= 0x100))
+  while (++i < byteLength && (mul *= 0x100)) {
     val += this[offset + i] * mul
+  }
 
   return val
 }
 
-Buffer.prototype.readUIntBE = function (offset, byteLength, noAssert) {
+Buffer.prototype.readUIntBE = function readUIntBE (offset, byteLength, noAssert) {
   offset = offset >>> 0
   byteLength = byteLength >>> 0
-  if (!noAssert)
+  if (!noAssert) {
     checkOffset(offset, byteLength, this.length)
+  }
 
   var val = this[offset + --byteLength]
   var mul = 1
-  while (byteLength > 0 && (mul *= 0x100))
+  while (byteLength > 0 && (mul *= 0x100)) {
     val += this[offset + --byteLength] * mul
+  }
 
   return val
 }
 
-Buffer.prototype.readUInt8 = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 1, this.length)
+Buffer.prototype.readUInt8 = function readUInt8 (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 1, this.length)
   return this[offset]
 }
 
-Buffer.prototype.readUInt16LE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 2, this.length)
+Buffer.prototype.readUInt16LE = function readUInt16LE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 2, this.length)
   return this[offset] | (this[offset + 1] << 8)
 }
 
-Buffer.prototype.readUInt16BE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 2, this.length)
+Buffer.prototype.readUInt16BE = function readUInt16BE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 2, this.length)
   return (this[offset] << 8) | this[offset + 1]
 }
 
-Buffer.prototype.readUInt32LE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 4, this.length)
+Buffer.prototype.readUInt32LE = function readUInt32LE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
 
   return ((this[offset]) |
       (this[offset + 1] << 8) |
@@ -22357,117 +22385,104 @@ Buffer.prototype.readUInt32LE = function (offset, noAssert) {
       (this[offset + 3] * 0x1000000)
 }
 
-Buffer.prototype.readUInt32BE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 4, this.length)
+Buffer.prototype.readUInt32BE = function readUInt32BE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
 
   return (this[offset] * 0x1000000) +
-      ((this[offset + 1] << 16) |
-      (this[offset + 2] << 8) |
-      this[offset + 3])
+    ((this[offset + 1] << 16) |
+    (this[offset + 2] << 8) |
+    this[offset + 3])
 }
 
-Buffer.prototype.readIntLE = function (offset, byteLength, noAssert) {
+Buffer.prototype.readIntLE = function readIntLE (offset, byteLength, noAssert) {
   offset = offset >>> 0
   byteLength = byteLength >>> 0
-  if (!noAssert)
-    checkOffset(offset, byteLength, this.length)
+  if (!noAssert) checkOffset(offset, byteLength, this.length)
 
   var val = this[offset]
   var mul = 1
   var i = 0
-  while (++i < byteLength && (mul *= 0x100))
+  while (++i < byteLength && (mul *= 0x100)) {
     val += this[offset + i] * mul
+  }
   mul *= 0x80
 
-  if (val >= mul)
-    val -= Math.pow(2, 8 * byteLength)
+  if (val >= mul) val -= Math.pow(2, 8 * byteLength)
 
   return val
 }
 
-Buffer.prototype.readIntBE = function (offset, byteLength, noAssert) {
+Buffer.prototype.readIntBE = function readIntBE (offset, byteLength, noAssert) {
   offset = offset >>> 0
   byteLength = byteLength >>> 0
-  if (!noAssert)
-    checkOffset(offset, byteLength, this.length)
+  if (!noAssert) checkOffset(offset, byteLength, this.length)
 
   var i = byteLength
   var mul = 1
   var val = this[offset + --i]
-  while (i > 0 && (mul *= 0x100))
+  while (i > 0 && (mul *= 0x100)) {
     val += this[offset + --i] * mul
+  }
   mul *= 0x80
 
-  if (val >= mul)
-    val -= Math.pow(2, 8 * byteLength)
+  if (val >= mul) val -= Math.pow(2, 8 * byteLength)
 
   return val
 }
 
-Buffer.prototype.readInt8 = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 1, this.length)
-  if (!(this[offset] & 0x80))
-    return (this[offset])
+Buffer.prototype.readInt8 = function readInt8 (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 1, this.length)
+  if (!(this[offset] & 0x80)) return (this[offset])
   return ((0xff - this[offset] + 1) * -1)
 }
 
-Buffer.prototype.readInt16LE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 2, this.length)
+Buffer.prototype.readInt16LE = function readInt16LE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 2, this.length)
   var val = this[offset] | (this[offset + 1] << 8)
   return (val & 0x8000) ? val | 0xFFFF0000 : val
 }
 
-Buffer.prototype.readInt16BE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 2, this.length)
+Buffer.prototype.readInt16BE = function readInt16BE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 2, this.length)
   var val = this[offset + 1] | (this[offset] << 8)
   return (val & 0x8000) ? val | 0xFFFF0000 : val
 }
 
-Buffer.prototype.readInt32LE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 4, this.length)
+Buffer.prototype.readInt32LE = function readInt32LE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
 
   return (this[offset]) |
-      (this[offset + 1] << 8) |
-      (this[offset + 2] << 16) |
-      (this[offset + 3] << 24)
+    (this[offset + 1] << 8) |
+    (this[offset + 2] << 16) |
+    (this[offset + 3] << 24)
 }
 
-Buffer.prototype.readInt32BE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 4, this.length)
+Buffer.prototype.readInt32BE = function readInt32BE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
 
   return (this[offset] << 24) |
-      (this[offset + 1] << 16) |
-      (this[offset + 2] << 8) |
-      (this[offset + 3])
+    (this[offset + 1] << 16) |
+    (this[offset + 2] << 8) |
+    (this[offset + 3])
 }
 
-Buffer.prototype.readFloatLE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 4, this.length)
+Buffer.prototype.readFloatLE = function readFloatLE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
   return ieee754.read(this, offset, true, 23, 4)
 }
 
-Buffer.prototype.readFloatBE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 4, this.length)
+Buffer.prototype.readFloatBE = function readFloatBE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
   return ieee754.read(this, offset, false, 23, 4)
 }
 
-Buffer.prototype.readDoubleLE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 8, this.length)
+Buffer.prototype.readDoubleLE = function readDoubleLE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 8, this.length)
   return ieee754.read(this, offset, true, 52, 8)
 }
 
-Buffer.prototype.readDoubleBE = function (offset, noAssert) {
-  if (!noAssert)
-    checkOffset(offset, 8, this.length)
+Buffer.prototype.readDoubleBE = function readDoubleBE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 8, this.length)
   return ieee754.read(this, offset, false, 52, 8)
 }
 
@@ -22477,43 +22492,42 @@ function checkInt (buf, value, offset, ext, max, min) {
   if (offset + ext > buf.length) throw new RangeError('index out of range')
 }
 
-Buffer.prototype.writeUIntLE = function (value, offset, byteLength, noAssert) {
+Buffer.prototype.writeUIntLE = function writeUIntLE (value, offset, byteLength, noAssert) {
   value = +value
   offset = offset >>> 0
   byteLength = byteLength >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, byteLength, Math.pow(2, 8 * byteLength), 0)
+  if (!noAssert) checkInt(this, value, offset, byteLength, Math.pow(2, 8 * byteLength), 0)
 
   var mul = 1
   var i = 0
   this[offset] = value & 0xFF
-  while (++i < byteLength && (mul *= 0x100))
+  while (++i < byteLength && (mul *= 0x100)) {
     this[offset + i] = (value / mul) >>> 0 & 0xFF
+  }
 
   return offset + byteLength
 }
 
-Buffer.prototype.writeUIntBE = function (value, offset, byteLength, noAssert) {
+Buffer.prototype.writeUIntBE = function writeUIntBE (value, offset, byteLength, noAssert) {
   value = +value
   offset = offset >>> 0
   byteLength = byteLength >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, byteLength, Math.pow(2, 8 * byteLength), 0)
+  if (!noAssert) checkInt(this, value, offset, byteLength, Math.pow(2, 8 * byteLength), 0)
 
   var i = byteLength - 1
   var mul = 1
   this[offset + i] = value & 0xFF
-  while (--i >= 0 && (mul *= 0x100))
+  while (--i >= 0 && (mul *= 0x100)) {
     this[offset + i] = (value / mul) >>> 0 & 0xFF
+  }
 
   return offset + byteLength
 }
 
-Buffer.prototype.writeUInt8 = function (value, offset, noAssert) {
+Buffer.prototype.writeUInt8 = function writeUInt8 (value, offset, noAssert) {
   value = +value
   offset = offset >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, 1, 0xff, 0)
+  if (!noAssert) checkInt(this, value, offset, 1, 0xff, 0)
   if (!Buffer.TYPED_ARRAY_SUPPORT) value = Math.floor(value)
   this[offset] = value
   return offset + 1
@@ -22527,27 +22541,29 @@ function objectWriteUInt16 (buf, value, offset, littleEndian) {
   }
 }
 
-Buffer.prototype.writeUInt16LE = function (value, offset, noAssert) {
+Buffer.prototype.writeUInt16LE = function writeUInt16LE (value, offset, noAssert) {
   value = +value
   offset = offset >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, 2, 0xffff, 0)
+  if (!noAssert) checkInt(this, value, offset, 2, 0xffff, 0)
   if (Buffer.TYPED_ARRAY_SUPPORT) {
     this[offset] = value
     this[offset + 1] = (value >>> 8)
-  } else objectWriteUInt16(this, value, offset, true)
+  } else {
+    objectWriteUInt16(this, value, offset, true)
+  }
   return offset + 2
 }
 
-Buffer.prototype.writeUInt16BE = function (value, offset, noAssert) {
+Buffer.prototype.writeUInt16BE = function writeUInt16BE (value, offset, noAssert) {
   value = +value
   offset = offset >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, 2, 0xffff, 0)
+  if (!noAssert) checkInt(this, value, offset, 2, 0xffff, 0)
   if (Buffer.TYPED_ARRAY_SUPPORT) {
     this[offset] = (value >>> 8)
     this[offset + 1] = value
-  } else objectWriteUInt16(this, value, offset, false)
+  } else {
+    objectWriteUInt16(this, value, offset, false)
+  }
   return offset + 2
 }
 
@@ -22558,139 +22574,144 @@ function objectWriteUInt32 (buf, value, offset, littleEndian) {
   }
 }
 
-Buffer.prototype.writeUInt32LE = function (value, offset, noAssert) {
+Buffer.prototype.writeUInt32LE = function writeUInt32LE (value, offset, noAssert) {
   value = +value
   offset = offset >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, 4, 0xffffffff, 0)
+  if (!noAssert) checkInt(this, value, offset, 4, 0xffffffff, 0)
   if (Buffer.TYPED_ARRAY_SUPPORT) {
     this[offset + 3] = (value >>> 24)
     this[offset + 2] = (value >>> 16)
     this[offset + 1] = (value >>> 8)
     this[offset] = value
-  } else objectWriteUInt32(this, value, offset, true)
+  } else {
+    objectWriteUInt32(this, value, offset, true)
+  }
   return offset + 4
 }
 
-Buffer.prototype.writeUInt32BE = function (value, offset, noAssert) {
+Buffer.prototype.writeUInt32BE = function writeUInt32BE (value, offset, noAssert) {
   value = +value
   offset = offset >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, 4, 0xffffffff, 0)
+  if (!noAssert) checkInt(this, value, offset, 4, 0xffffffff, 0)
   if (Buffer.TYPED_ARRAY_SUPPORT) {
     this[offset] = (value >>> 24)
     this[offset + 1] = (value >>> 16)
     this[offset + 2] = (value >>> 8)
     this[offset + 3] = value
-  } else objectWriteUInt32(this, value, offset, false)
+  } else {
+    objectWriteUInt32(this, value, offset, false)
+  }
   return offset + 4
 }
 
-Buffer.prototype.writeIntLE = function (value, offset, byteLength, noAssert) {
+Buffer.prototype.writeIntLE = function writeIntLE (value, offset, byteLength, noAssert) {
   value = +value
   offset = offset >>> 0
   if (!noAssert) {
-    checkInt(this,
-             value,
-             offset,
-             byteLength,
-             Math.pow(2, 8 * byteLength - 1) - 1,
-             -Math.pow(2, 8 * byteLength - 1))
+    checkInt(
+      this, value, offset, byteLength,
+      Math.pow(2, 8 * byteLength - 1) - 1,
+      -Math.pow(2, 8 * byteLength - 1)
+    )
   }
 
   var i = 0
   var mul = 1
   var sub = value < 0 ? 1 : 0
   this[offset] = value & 0xFF
-  while (++i < byteLength && (mul *= 0x100))
+  while (++i < byteLength && (mul *= 0x100)) {
     this[offset + i] = ((value / mul) >> 0) - sub & 0xFF
+  }
 
   return offset + byteLength
 }
 
-Buffer.prototype.writeIntBE = function (value, offset, byteLength, noAssert) {
+Buffer.prototype.writeIntBE = function writeIntBE (value, offset, byteLength, noAssert) {
   value = +value
   offset = offset >>> 0
   if (!noAssert) {
-    checkInt(this,
-             value,
-             offset,
-             byteLength,
-             Math.pow(2, 8 * byteLength - 1) - 1,
-             -Math.pow(2, 8 * byteLength - 1))
+    checkInt(
+      this, value, offset, byteLength,
+      Math.pow(2, 8 * byteLength - 1) - 1,
+      -Math.pow(2, 8 * byteLength - 1)
+    )
   }
 
   var i = byteLength - 1
   var mul = 1
   var sub = value < 0 ? 1 : 0
   this[offset + i] = value & 0xFF
-  while (--i >= 0 && (mul *= 0x100))
+  while (--i >= 0 && (mul *= 0x100)) {
     this[offset + i] = ((value / mul) >> 0) - sub & 0xFF
+  }
 
   return offset + byteLength
 }
 
-Buffer.prototype.writeInt8 = function (value, offset, noAssert) {
+Buffer.prototype.writeInt8 = function writeInt8 (value, offset, noAssert) {
   value = +value
   offset = offset >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, 1, 0x7f, -0x80)
+  if (!noAssert) checkInt(this, value, offset, 1, 0x7f, -0x80)
   if (!Buffer.TYPED_ARRAY_SUPPORT) value = Math.floor(value)
   if (value < 0) value = 0xff + value + 1
   this[offset] = value
   return offset + 1
 }
 
-Buffer.prototype.writeInt16LE = function (value, offset, noAssert) {
+Buffer.prototype.writeInt16LE = function writeInt16LE (value, offset, noAssert) {
   value = +value
   offset = offset >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, 2, 0x7fff, -0x8000)
+  if (!noAssert) checkInt(this, value, offset, 2, 0x7fff, -0x8000)
   if (Buffer.TYPED_ARRAY_SUPPORT) {
     this[offset] = value
     this[offset + 1] = (value >>> 8)
-  } else objectWriteUInt16(this, value, offset, true)
+  } else {
+    objectWriteUInt16(this, value, offset, true)
+  }
   return offset + 2
 }
 
-Buffer.prototype.writeInt16BE = function (value, offset, noAssert) {
+Buffer.prototype.writeInt16BE = function writeInt16BE (value, offset, noAssert) {
   value = +value
   offset = offset >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, 2, 0x7fff, -0x8000)
+  if (!noAssert) checkInt(this, value, offset, 2, 0x7fff, -0x8000)
   if (Buffer.TYPED_ARRAY_SUPPORT) {
     this[offset] = (value >>> 8)
     this[offset + 1] = value
-  } else objectWriteUInt16(this, value, offset, false)
+  } else {
+    objectWriteUInt16(this, value, offset, false)
+  }
   return offset + 2
 }
 
-Buffer.prototype.writeInt32LE = function (value, offset, noAssert) {
+Buffer.prototype.writeInt32LE = function writeInt32LE (value, offset, noAssert) {
   value = +value
   offset = offset >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, 4, 0x7fffffff, -0x80000000)
+  if (!noAssert) checkInt(this, value, offset, 4, 0x7fffffff, -0x80000000)
   if (Buffer.TYPED_ARRAY_SUPPORT) {
     this[offset] = value
     this[offset + 1] = (value >>> 8)
     this[offset + 2] = (value >>> 16)
     this[offset + 3] = (value >>> 24)
-  } else objectWriteUInt32(this, value, offset, true)
+  } else {
+    objectWriteUInt32(this, value, offset, true)
+  }
   return offset + 4
 }
 
-Buffer.prototype.writeInt32BE = function (value, offset, noAssert) {
+Buffer.prototype.writeInt32BE = function writeInt32BE (value, offset, noAssert) {
   value = +value
   offset = offset >>> 0
-  if (!noAssert)
-    checkInt(this, value, offset, 4, 0x7fffffff, -0x80000000)
+  if (!noAssert) checkInt(this, value, offset, 4, 0x7fffffff, -0x80000000)
   if (value < 0) value = 0xffffffff + value + 1
   if (Buffer.TYPED_ARRAY_SUPPORT) {
     this[offset] = (value >>> 24)
     this[offset + 1] = (value >>> 16)
     this[offset + 2] = (value >>> 8)
     this[offset + 3] = value
-  } else objectWriteUInt32(this, value, offset, false)
+  } else {
+    objectWriteUInt32(this, value, offset, false)
+  }
   return offset + 4
 }
 
@@ -22701,39 +22722,39 @@ function checkIEEE754 (buf, value, offset, ext, max, min) {
 }
 
 function writeFloat (buf, value, offset, littleEndian, noAssert) {
-  if (!noAssert)
+  if (!noAssert) {
     checkIEEE754(buf, value, offset, 4, 3.4028234663852886e+38, -3.4028234663852886e+38)
+  }
   ieee754.write(buf, value, offset, littleEndian, 23, 4)
   return offset + 4
 }
 
-Buffer.prototype.writeFloatLE = function (value, offset, noAssert) {
+Buffer.prototype.writeFloatLE = function writeFloatLE (value, offset, noAssert) {
   return writeFloat(this, value, offset, true, noAssert)
 }
 
-Buffer.prototype.writeFloatBE = function (value, offset, noAssert) {
+Buffer.prototype.writeFloatBE = function writeFloatBE (value, offset, noAssert) {
   return writeFloat(this, value, offset, false, noAssert)
 }
 
 function writeDouble (buf, value, offset, littleEndian, noAssert) {
-  if (!noAssert)
+  if (!noAssert) {
     checkIEEE754(buf, value, offset, 8, 1.7976931348623157E+308, -1.7976931348623157E+308)
+  }
   ieee754.write(buf, value, offset, littleEndian, 52, 8)
   return offset + 8
 }
 
-Buffer.prototype.writeDoubleLE = function (value, offset, noAssert) {
+Buffer.prototype.writeDoubleLE = function writeDoubleLE (value, offset, noAssert) {
   return writeDouble(this, value, offset, true, noAssert)
 }
 
-Buffer.prototype.writeDoubleBE = function (value, offset, noAssert) {
+Buffer.prototype.writeDoubleBE = function writeDoubleBE (value, offset, noAssert) {
   return writeDouble(this, value, offset, false, noAssert)
 }
 
 // copy(targetBuffer, targetStart=0, sourceStart=0, sourceEnd=buffer.length)
-Buffer.prototype.copy = function (target, target_start, start, end) {
-  var self = this // source
-
+Buffer.prototype.copy = function copy (target, target_start, start, end) {
   if (!start) start = 0
   if (!end && end !== 0) end = this.length
   if (target_start >= target.length) target_start = target.length
@@ -22742,19 +22763,20 @@ Buffer.prototype.copy = function (target, target_start, start, end) {
 
   // Copy 0 bytes; we're done
   if (end === start) return 0
-  if (target.length === 0 || self.length === 0) return 0
+  if (target.length === 0 || this.length === 0) return 0
 
   // Fatal error conditions
-  if (target_start < 0)
+  if (target_start < 0) {
     throw new RangeError('targetStart out of bounds')
-  if (start < 0 || start >= self.length) throw new RangeError('sourceStart out of bounds')
+  }
+  if (start < 0 || start >= this.length) throw new RangeError('sourceStart out of bounds')
   if (end < 0) throw new RangeError('sourceEnd out of bounds')
 
   // Are we oob?
-  if (end > this.length)
-    end = this.length
-  if (target.length - target_start < end - start)
+  if (end > this.length) end = this.length
+  if (target.length - target_start < end - start) {
     end = target.length - target_start + start
+  }
 
   var len = end - start
 
@@ -22770,7 +22792,7 @@ Buffer.prototype.copy = function (target, target_start, start, end) {
 }
 
 // fill(value, start=0, end=buffer.length)
-Buffer.prototype.fill = function (value, start, end) {
+Buffer.prototype.fill = function fill (value, start, end) {
   if (!value) value = 0
   if (!start) start = 0
   if (!end) end = this.length
@@ -22804,7 +22826,7 @@ Buffer.prototype.fill = function (value, start, end) {
  * Creates a new `ArrayBuffer` with the *copied* memory of the buffer instance.
  * Added in Node 0.12. Only available in browsers that support ArrayBuffer.
  */
-Buffer.prototype.toArrayBuffer = function () {
+Buffer.prototype.toArrayBuffer = function toArrayBuffer () {
   if (typeof Uint8Array !== 'undefined') {
     if (Buffer.TYPED_ARRAY_SUPPORT) {
       return (new Buffer(this)).buffer
@@ -22828,12 +22850,11 @@ var BP = Buffer.prototype
 /**
  * Augment a Uint8Array *instance* (not the Uint8Array class!) with Buffer methods
  */
-Buffer._augment = function (arr) {
+Buffer._augment = function _augment (arr) {
   arr.constructor = Buffer
   arr._isBuffer = true
 
-  // save reference to original Uint8Array get/set methods before overwriting
-  arr._get = arr.get
+  // save reference to original Uint8Array set method before overwriting
   arr._set = arr.set
 
   // deprecated, will be removed in node 0.13+
@@ -22846,6 +22867,7 @@ Buffer._augment = function (arr) {
   arr.toJSON = BP.toJSON
   arr.equals = BP.equals
   arr.compare = BP.compare
+  arr.indexOf = BP.indexOf
   arr.copy = BP.copy
   arr.slice = BP.slice
   arr.readUIntLE = BP.readUIntLE
@@ -23033,8 +23055,7 @@ function base64ToBytes (str) {
 
 function blitBuffer (src, dst, offset, length) {
   for (var i = 0; i < length; i++) {
-    if ((i + offset >= dst.length) || (i >= src.length))
-      break
+    if ((i + offset >= dst.length) || (i >= src.length)) break
     dst[i + offset] = src[i]
   }
   return i
@@ -23050,7 +23071,7 @@ function decodeUtf8Char (str) {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/../shared/node_modules/browserify/node_modules/buffer/index.js","/../shared/node_modules/browserify/node_modules/buffer")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","base64-js":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/base64-js/lib/b64.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","ieee754":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/ieee754/index.js","is-array":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/base64-js/lib/b64.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","base64-js":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/base64-js/lib/b64.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js","ieee754":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/ieee754/index.js","is-array":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/base64-js/lib/b64.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 
@@ -23179,7 +23200,7 @@ var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/../shared/node_modules/browserify/node_modules/buffer/node_modules/base64-js/lib/b64.js","/../shared/node_modules/browserify/node_modules/buffer/node_modules/base64-js/lib")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/ieee754/index.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/ieee754/index.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 exports.read = function(buffer, offset, isLE, mLen, nBytes) {
   var e, m,
@@ -23268,7 +23289,7 @@ exports.write = function(buffer, value, offset, isLE, mLen, nBytes) {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/../shared/node_modules/browserify/node_modules/buffer/node_modules/ieee754/index.js","/../shared/node_modules/browserify/node_modules/buffer/node_modules/ieee754")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 
 /**
@@ -23306,7 +23327,7 @@ module.exports = isArray || function (val) {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/../shared/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js","/../shared/node_modules/browserify/node_modules/buffer/node_modules/is-array")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 // shim for using process in browser
 
@@ -23344,6 +23365,7 @@ process.browser = true;
 process.env = {};
 process.argv = [];
 process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
 
 function noop() {}
 
@@ -23368,7 +23390,7 @@ process.umask = function() { return 0; };
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/../shared/node_modules/browserify/node_modules/process/browser.js","/../shared/node_modules/browserify/node_modules/process")
 
-},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}]},{},["./src/client/main.jsx"])("./src/client/main.jsx")
+},{"_process":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/shared/node_modules/browserify/node_modules/buffer/index.js"}]},{},["./src/client/main.jsx"])("./src/client/main.jsx")
 });
 
 

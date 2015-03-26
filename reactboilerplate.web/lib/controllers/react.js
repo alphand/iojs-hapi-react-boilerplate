@@ -1,4 +1,5 @@
 (function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.reactctr = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"./src/server/controllers/react.js":[function(require,module,exports){
+/* jshint node:true */
 "use strict";
 
 var React = require("react/addons");
@@ -31,10 +32,9 @@ var handler = function handler(req, reply) {
 };
 
 module.exports = handler;
-/* jshint node:true */
 
 
-},{"../../client/components/common/html.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/html.jsx","../../client/router.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/router.jsx","react-router":false,"react/addons":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/app.jsx":[function(require,module,exports){
+},{"../../client/components/common/html.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/html.jsx","../../client/router.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/router.jsx","react-router":false,"react/addons":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/app.jsx":[function(require,module,exports){
 "use strict";
 
 var _interopRequire = function (obj) { return obj && obj.__esModule ? obj["default"] : obj; };
@@ -67,7 +67,7 @@ var app = React.createClass({
 module.exports = app;
 
 
-},{"./components/common/layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","react":false,"react-router":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/about.jsx":[function(require,module,exports){
+},{"./components/common/layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","react":false,"react-router":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/about.jsx":[function(require,module,exports){
 "use strict";
 
 var _interopRequire = function (obj) { return obj && obj.__esModule ? obj["default"] : obj; };
@@ -95,7 +95,7 @@ var app = React.createClass({
 module.exports = app;
 
 
-},{"./common/layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","react":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/footer.jsx":[function(require,module,exports){
+},{"./common/layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","react":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/footer.jsx":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -132,7 +132,7 @@ var footer = React.createClass({
 module.exports = footer;
 
 
-},{"react":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/html.jsx":[function(require,module,exports){
+},{"react":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/html.jsx":[function(require,module,exports){
 "use strict";
 
 var _interopRequire = function (obj) { return obj && obj.__esModule ? obj["default"] : obj; };
@@ -170,7 +170,7 @@ var html = React.createClass({
 module.exports = html;
 
 
-},{"react":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/layout.jsx":[function(require,module,exports){
+},{"react":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/layout.jsx":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -232,7 +232,7 @@ var layout = React.createClass({
 module.exports = layout;
 
 
-},{"./footer.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/footer.jsx","react":false,"react-router":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/notfound.jsx":[function(require,module,exports){
+},{"./footer.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/footer.jsx","react":false,"react-router":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/notfound.jsx":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -258,7 +258,7 @@ var notfound = React.createClass({
 module.exports = notfound;
 
 
-},{"./layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","react":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/router.jsx":[function(require,module,exports){
+},{"./layout.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/layout.jsx","react":false}],"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/router.jsx":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -285,6 +285,6 @@ var routes = React.createElement(
 module.exports = routes;
 
 
-},{"./app.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/app.jsx","./components/about.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/about.jsx","./components/common/notfound.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/IOReactBoilerplate/reactboilerplate.web/src/client/components/common/notfound.jsx","react":false,"react-router":false}]},{},["./src/server/controllers/react.js"])("./src/server/controllers/react.js")
+},{"./app.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/app.jsx","./components/about.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/about.jsx","./components/common/notfound.jsx":"/Users/nikodarmawan/Developments/NodeDevelopments/iojs-hapi-react-boilerplate/reactboilerplate.web/src/client/components/common/notfound.jsx","react":false,"react-router":false}]},{},["./src/server/controllers/react.js"])("./src/server/controllers/react.js")
 });
 //# sourceMappingURL=react.js.map
